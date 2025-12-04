@@ -1,0 +1,2527 @@
+T7958 000:013.466   SEGGER J-Link V8.62 Log File
+T7958 000:013.619   DLL Compiled: Aug 20 2025 11:43:57
+T7958 000:013.624   Logging started @ 2025-11-16 08:21
+T7958 000:013.628   Process: D:\Keil\UV4\UV4.exe
+T7958 000:013.636 - 13.631ms 
+T7958 000:013.644 JLINK_SetWarnOutHandler(...)
+T7958 000:013.648 - 0.005ms 
+T7958 000:013.654 JLINK_OpenEx(...)
+T7958 000:017.575   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T7958 000:018.572   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T7958 000:018.714   Decompressing FW timestamp took 101 us
+T7958 000:025.800   Hardware: V9.10
+T7958 000:025.824   S/N: 20180904
+T7958 000:025.829   OEM: SEGGER
+T7958 000:025.835   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+T7958 000:026.840   Bootloader: (FW returned invalid version)
+T7958 000:027.874   TELNET listener socket opened on port 19021
+T7958 000:027.948   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T7958 000:028.224   WEBSRV Webserver running on local port 19080
+T7958 000:028.300   Looking for J-Link GUI Server exe at: d:\Keil\ARM\Segger\JLinkGUIServer.exe
+T7958 000:028.385   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink_V794\JLinkGUIServer.exe
+T7958 000:028.412   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink_V794\JLinkGUIServer.exe
+T7958 000:031.103   J-Link GUI Server info: "J-Link GUI server V7.94 "
+T7958 000:031.864 - 18.204ms returns "O.K."
+T7958 000:031.892 JLINK_GetEmuCaps()
+T7958 000:031.899 - 0.004ms returns 0xB9FF7BBF
+T7958 000:031.904 JLINK_TIF_GetAvailable(...)
+T7958 000:032.204 - 0.299ms 
+T7958 000:032.213 JLINK_SetErrorOutHandler(...)
+T7958 000:032.217 - 0.003ms 
+T7958 000:032.232 JLINK_ExecCommand("ProjectFile = "D:\1.Project\2.github\NoStackCoroutine\Prj\JLinkSettings.ini"", ...). 
+T7958 000:044.262   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1HA0\Devices.xml
+T7958 000:045.199   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1HA0\Devices.xml evaluated successfully.
+T7958 000:045.221     Device entry created:  YTM32B1HA01
+T7958 000:045.226       ChipInfo:
+T7958 000:045.231         Vendor:          YTMicro
+T7958 000:045.237         Name:            YTM32B1HA01
+T7958 000:045.245         Core:            JLINK_CORE_CORTEX_M7
+T7958 000:045.273         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1HA0\YTM32B1HA0.JLinkScript
+T7958 000:045.280         WorkRAMAddr:     0x20020000
+T7958 000:045.285         WorkRAMSize:     0x00020000
+T7958 000:045.292       FlashBankInfo:
+T7958 000:045.297         Name:            Main Flash
+T7958 000:045.303         BaseAddr:        0x02000000
+T7958 000:045.336         AlwaysPresent:   1
+T7958 000:045.341         LoaderInfo:
+T7958 000:045.347           Name:            Main_Flash
+T7958 000:045.352           MaxSize:         0x00200000
+T7958 000:045.358           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1HA0\YTM32B1HA0_Main.FLM
+T7958 000:045.363           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:045.369       FlashBankInfo:
+T7958 000:045.374         Name:            Data Flash
+T7958 000:045.379         BaseAddr:        0x06000000
+T7958 000:045.407         AlwaysPresent:   1
+T7958 000:045.412         LoaderInfo:
+T7958 000:045.417           Name:            Data_Flash
+T7958 000:045.422           MaxSize:         0x00040000
+T7958 000:045.428           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1HA0\YTM32B1HA0_Dflash.FLM
+T7958 000:045.433           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:045.789   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LD0\Devices.xml
+T7958 000:046.792   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LD0\Devices.xml evaluated successfully.
+T7958 000:046.814     Device entry created:  YTM32B1LD04
+T7958 000:046.819       ChipInfo:
+T7958 000:046.825         Vendor:          YTMicro
+T7958 000:046.831         Name:            YTM32B1LD04
+T7958 000:046.881         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:046.931         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LD0\YTM32B1LD0.JLinkScript
+T7958 000:046.937         WorkRAMAddr:     0x20000000
+T7958 000:046.943         WorkRAMSize:     0x00002000
+T7958 000:046.949       FlashBankInfo:
+T7958 000:046.954         Name:            Internal Flash
+T7958 000:046.991         AlwaysPresent:   1
+T7958 000:046.996         LoaderInfo:
+T7958 000:047.002           Name:            Internal_Flash
+T7958 000:047.007           MaxSize:         0x00010000
+T7958 000:047.013           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LD0\YTM32B1LD0_Main.FLM
+T7958 000:047.018           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:047.024       FlashBankInfo:
+T7958 000:047.029         Name:            Internal Flash
+T7958 000:047.034         BaseAddr:        0x00400200
+T7958 000:047.063         AlwaysPresent:   1
+T7958 000:047.068         LoaderInfo:
+T7958 000:047.073           Name:            Internal_Flash
+T7958 000:047.079           MaxSize:         0x00000800
+T7958 000:047.085           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LD0\YTM32B1LD0_Dflash.FLM
+T7958 000:047.090           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:047.398   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\Devices.xml
+T7958 000:048.344   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\Devices.xml evaluated successfully.
+T7958 000:048.357     Device entry created:  YTM32B1LE05
+T7958 000:048.362       ChipInfo:
+T7958 000:048.367         Vendor:          YTMicro
+T7958 000:048.373         Name:            YTM32B1LE05
+T7958 000:048.379         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:048.405         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE05.JLinkScript
+T7958 000:048.411         WorkRAMAddr:     0x20000000
+T7958 000:048.417         WorkRAMSize:     0x00004000
+T7958 000:048.422       FlashBankInfo:
+T7958 000:048.428         Name:            Internal PFlash
+T7958 000:048.458         AlwaysPresent:   1
+T7958 000:048.464         LoaderInfo:
+T7958 000:048.469           Name:            Internal_PFlash
+T7958 000:048.474           MaxSize:         0x00020000
+T7958 000:048.481           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE0_Main.FLM
+T7958 000:048.486           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:048.491       FlashBankInfo:
+T7958 000:048.496         Name:            Internal DFlash
+T7958 000:048.501         BaseAddr:        0x10000000
+T7958 000:048.529         AlwaysPresent:   1
+T7958 000:048.535         LoaderInfo:
+T7958 000:048.540           Name:            Internal_DFlash
+T7958 000:048.545           MaxSize:         0x00000800
+T7958 000:048.551           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE0_Dflash.FLM
+T7958 000:048.556           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:048.561       FlashBankInfo:
+T7958 000:048.566         Name:            Internal OTP NVR
+T7958 000:048.571         BaseAddr:        0x10000800
+T7958 000:048.599         AlwaysPresent:   0
+T7958 000:048.605         LoaderInfo:
+T7958 000:048.610           Name:            Internal_OTP_NVR
+T7958 000:048.615           MaxSize:         0x00000200
+T7958 000:048.621           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE0_OTP_NVR.FLM
+T7958 000:048.626           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:048.631       FlashBankInfo:
+T7958 000:048.636         Name:            Internal CUS NVR
+T7958 000:048.641         BaseAddr:        0x10000A00
+T7958 000:048.668         AlwaysPresent:   0
+T7958 000:048.673         LoaderInfo:
+T7958 000:048.679           Name:            Internal_CUS_NVR
+T7958 000:048.684           MaxSize:         0x00000200
+T7958 000:048.693           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE0_CUS_NVR.FLM
+T7958 000:048.698           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:048.707     Device entry created:  YTM32B1LE04
+T7958 000:048.710       ChipInfo:
+T7958 000:048.715         Vendor:          YTMicro
+T7958 000:048.721         Name:            YTM32B1LE04
+T7958 000:048.726         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:048.743         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE04.JLinkScript
+T7958 000:048.749         WorkRAMAddr:     0x20000000
+T7958 000:048.754         WorkRAMSize:     0x00002000
+T7958 000:048.759       FlashBankInfo:
+T7958 000:048.764         Name:            Internal PFlash
+T7958 000:048.790         AlwaysPresent:   1
+T7958 000:048.796         LoaderInfo:
+T7958 000:048.801           Name:            Internal_PFlash
+T7958 000:048.806           MaxSize:         0x00010000
+T7958 000:048.812           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE0_Main.FLM
+T7958 000:048.817           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:048.822       FlashBankInfo:
+T7958 000:048.827         Name:            Internal DFlash
+T7958 000:048.832         BaseAddr:        0x10000000
+T7958 000:048.858         AlwaysPresent:   1
+T7958 000:048.863         LoaderInfo:
+T7958 000:048.868           Name:            Internal_DFlash
+T7958 000:048.874           MaxSize:         0x00000800
+T7958 000:048.879           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE0_Dflash.FLM
+T7958 000:048.884           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:048.889       FlashBankInfo:
+T7958 000:048.895         Name:            Internal OTP NVR
+T7958 000:048.900         BaseAddr:        0x10000800
+T7958 000:048.926         AlwaysPresent:   0
+T7958 000:048.931         LoaderInfo:
+T7958 000:048.936           Name:            Internal_OTP_NVR
+T7958 000:048.941           MaxSize:         0x00000200
+T7958 000:048.947           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE0_OTP_NVR.FLM
+T7958 000:048.952           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:048.957       FlashBankInfo:
+T7958 000:048.962         Name:            Internal CUS NVR
+T7958 000:048.967         BaseAddr:        0x10000A00
+T7958 000:048.993         AlwaysPresent:   0
+T7958 000:048.999         LoaderInfo:
+T7958 000:049.004           Name:            Internal_CUS_NVR
+T7958 000:049.009           MaxSize:         0x00000200
+T7958 000:049.014           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE0\YTM32B1LE0_CUS_NVR.FLM
+T7958 000:049.020           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:049.414   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE1\Devices.xml
+T7958 000:050.456   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE1\Devices.xml evaluated successfully.
+T7958 000:050.474     Device entry created:  YTM32B1LE15
+T7958 000:050.479       ChipInfo:
+T7958 000:050.485         Vendor:          YTMicro
+T7958 000:050.491         Name:            YTM32B1LE15
+T7958 000:050.498         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:050.539         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE1\YTM32B1LE15.JLinkScript
+T7958 000:050.545         WorkRAMAddr:     0x20000000
+T7958 000:050.551         WorkRAMSize:     0x00004000
+T7958 000:050.556       FlashBankInfo:
+T7958 000:050.562         Name:            Internal PFlash
+T7958 000:050.598         AlwaysPresent:   1
+T7958 000:050.604         LoaderInfo:
+T7958 000:050.609           Name:            Internal_PFlash
+T7958 000:050.615           MaxSize:         0x00020000
+T7958 000:050.620           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE1\YTM32B1LE1_Main.FLM
+T7958 000:050.631           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:050.637       FlashBankInfo:
+T7958 000:050.642         Name:            Internal DFlash
+T7958 000:050.647         BaseAddr:        0x10000000
+T7958 000:050.677         AlwaysPresent:   1
+T7958 000:050.683         LoaderInfo:
+T7958 000:050.688           Name:            Internal_DFlash
+T7958 000:050.693           MaxSize:         0x00003000
+T7958 000:050.699           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE1\YTM32B1LE1_Dflash.FLM
+T7958 000:050.704           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:050.714     Device entry created:  YTM32B1LE14
+T7958 000:050.717       ChipInfo:
+T7958 000:050.723         Vendor:          YTMicro
+T7958 000:050.728         Name:            YTM32B1LE14
+T7958 000:050.734         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:050.751         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE1\YTM32B1LE14.JLinkScript
+T7958 000:050.756         WorkRAMAddr:     0x20000000
+T7958 000:050.762         WorkRAMSize:     0x00002000
+T7958 000:050.767       FlashBankInfo:
+T7958 000:050.772         Name:            Internal PFlash
+T7958 000:050.798         AlwaysPresent:   1
+T7958 000:050.803         LoaderInfo:
+T7958 000:050.808           Name:            Internal_PFlash
+T7958 000:050.814           MaxSize:         0x00010000
+T7958 000:050.819           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE1\YTM32B1LE1_Main.FLM
+T7958 000:050.824           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:050.830       FlashBankInfo:
+T7958 000:050.835         Name:            Internal DFlash
+T7958 000:050.840         BaseAddr:        0x10000000
+T7958 000:050.866         AlwaysPresent:   1
+T7958 000:050.872         LoaderInfo:
+T7958 000:050.877           Name:            Internal_DFlash
+T7958 000:050.882           MaxSize:         0x00003000
+T7958 000:050.888           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1LE1\YTM32B1LE1_Dflash.FLM
+T7958 000:050.893           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:051.290   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MC0\Devices.xml
+T7958 000:052.242   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MC0\Devices.xml evaluated successfully.
+T7958 000:052.253     Device entry created:  YTM32B1MC03
+T7958 000:052.257       ChipInfo:
+T7958 000:052.263         Vendor:          YTMicro
+T7958 000:052.270         Name:            YTM32B1MC03
+T7958 000:052.276         Core:            JLINK_CORE_CORTEX_M33
+T7958 000:052.302         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MC0\YTM32B1MC0.JLinkScript
+T7958 000:052.307         WorkRAMAddr:     0x20000000
+T7958 000:052.313         WorkRAMSize:     0x00008000
+T7958 000:052.319       FlashBankInfo:
+T7958 000:052.324         Name:            PFlash
+T7958 000:052.354         AlwaysPresent:   1
+T7958 000:052.360         LoaderInfo:
+T7958 000:052.365           Name:            PFlash
+T7958 000:052.370           MaxSize:         0x00040000
+T7958 000:052.376           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MC0\YTM32B1MC0_Main.FLM
+T7958 000:052.381           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:052.386       FlashBankInfo:
+T7958 000:052.391         Name:            DFlash0
+T7958 000:052.397         BaseAddr:        0x10001000
+T7958 000:052.425         AlwaysPresent:   1
+T7958 000:052.431         LoaderInfo:
+T7958 000:052.436           Name:            DFlash0
+T7958 000:052.441           MaxSize:         0x00002800
+T7958 000:052.447           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MC0\YTM32B1MC0_Dflash.FLM
+T7958 000:052.452           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:052.457       FlashBankInfo:
+T7958 000:052.502         Name:            DFlash1
+T7958 000:052.507         BaseAddr:        0x10011000
+T7958 000:052.534         AlwaysPresent:   1
+T7958 000:052.540         LoaderInfo:
+T7958 000:052.545           Name:            DFlash1
+T7958 000:052.550           MaxSize:         0x00002800
+T7958 000:052.556           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MC0\YTM32B1MC0_Dflash.FLM
+T7958 000:052.561           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:052.566       FlashBankInfo:
+T7958 000:052.571         Name:            CUS NVR
+T7958 000:052.576         BaseAddr:        0x10013800
+T7958 000:052.604         AlwaysPresent:   0
+T7958 000:052.610         LoaderInfo:
+T7958 000:052.615           Name:            CUS_NVR
+T7958 000:052.620           MaxSize:         0x00000200
+T7958 000:052.625           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MC0\YTM32B1MC0_CUS_NVR.FLM
+T7958 000:052.630           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:052.635       FlashBankInfo:
+T7958 000:052.640         Name:            OTP NVR
+T7958 000:052.646         BaseAddr:        0x10003A00
+T7958 000:052.673         AlwaysPresent:   0
+T7958 000:052.679         LoaderInfo:
+T7958 000:052.684           Name:            OTP_NVR
+T7958 000:052.689           MaxSize:         0x00000200
+T7958 000:052.694           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MC0\YTM32B1MC0_OTP_NVR.FLM
+T7958 000:052.699           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:052.973   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MD1\Devices.xml
+T7958 000:053.863   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MD1\Devices.xml evaluated successfully.
+T7958 000:053.874     Device entry created:  YTM32B1MD14
+T7958 000:053.878       ChipInfo:
+T7958 000:053.884         Vendor:          YTMicro
+T7958 000:053.889         Name:            YTM32B1MD14
+T7958 000:053.896         Core:            JLINK_CORE_CORTEX_M33
+T7958 000:053.919         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MD1\YTM32B1MD1.JLinkScript
+T7958 000:053.926         WorkRAMAddr:     0x1FFF8000
+T7958 000:053.931         WorkRAMSize:     0x00010000
+T7958 000:053.936       FlashBankInfo:
+T7958 000:053.942         Name:            Internal Flash
+T7958 000:053.971         AlwaysPresent:   1
+T7958 000:053.977         LoaderInfo:
+T7958 000:053.982           Name:            Internal_Flash
+T7958 000:053.987           MaxSize:         0x00080000
+T7958 000:053.993           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MD1\YTM32B1MD1_Main.FLM
+T7958 000:053.998           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:054.248   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MD2\Devices.xml
+T7958 000:055.169   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MD2\Devices.xml evaluated successfully.
+T7958 000:055.181     Device entry created:  YTM32B1MD24
+T7958 000:055.186       ChipInfo:
+T7958 000:055.201         Vendor:          YTMicro
+T7958 000:055.207         Name:            YTM32B1MD24
+T7958 000:055.213         Core:            JLINK_CORE_CORTEX_M33
+T7958 000:055.237         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MD2\YTM32B1MD2.JLinkScript
+T7958 000:055.243         WorkRAMAddr:     0x1FFF8000
+T7958 000:055.249         WorkRAMSize:     0x00002000
+T7958 000:055.254       FlashBankInfo:
+T7958 000:055.260         Name:            PFlash
+T7958 000:055.289         AlwaysPresent:   1
+T7958 000:055.294         LoaderInfo:
+T7958 000:055.299           Name:            PFlash
+T7958 000:055.304           MaxSize:         0x00080000
+T7958 000:055.310           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MD2\YTM32B1MD2_Main.FLM
+T7958 000:055.315           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:055.326       FlashBankInfo:
+T7958 000:055.331         Name:            DFlash
+T7958 000:055.337         BaseAddr:        0x02000000
+T7958 000:055.365         AlwaysPresent:   1
+T7958 000:055.370         LoaderInfo:
+T7958 000:055.375           Name:            DFlash
+T7958 000:055.380           MaxSize:         0x00010000
+T7958 000:055.386           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1MD2\YTM32B1MD2_Dflash.FLM
+T7958 000:055.391           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:055.620   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME0\Devices.xml
+T7958 000:056.493   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME0\Devices.xml evaluated successfully.
+T7958 000:056.502     Device entry created:  YTM32B1ME05
+T7958 000:056.506       ChipInfo:
+T7958 000:056.512         Vendor:          YTMicro
+T7958 000:056.517         Name:            YTM32B1ME05
+T7958 000:056.524         Core:            JLINK_CORE_CORTEX_M33
+T7958 000:056.545         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME0\YTM32B1ME0.JLinkScript
+T7958 000:056.550         WorkRAMAddr:     0x1FFF0000
+T7958 000:056.556         WorkRAMSize:     0x00010000
+T7958 000:056.561       FlashBankInfo:
+T7958 000:056.567         Name:            Internal Flash
+T7958 000:056.596         AlwaysPresent:   1
+T7958 000:056.601         LoaderInfo:
+T7958 000:056.607           Name:            Internal_Flash
+T7958 000:056.612           MaxSize:         0x00100000
+T7958 000:056.617           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME0\YTM32B1ME0_Main.FLM
+T7958 000:056.623           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:056.628       FlashBankInfo:
+T7958 000:056.633         Name:            Internal Flash
+T7958 000:056.638         BaseAddr:        0x00100000
+T7958 000:056.666         AlwaysPresent:   1
+T7958 000:056.671         LoaderInfo:
+T7958 000:056.676           Name:            Internal_Flash
+T7958 000:056.681           MaxSize:         0x00040000
+T7958 000:056.687           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME0\YTM32B1ME0_Dflash.FLM
+T7958 000:056.692           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:056.932   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME1\Devices.xml
+T7958 000:057.867   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME1\Devices.xml evaluated successfully.
+T7958 000:057.879     Device entry created:  YTM32B1ME14
+T7958 000:057.883       ChipInfo:
+T7958 000:057.889         Vendor:          YTMicro
+T7958 000:057.894         Name:            YTM32B1ME14
+T7958 000:057.901         Core:            JLINK_CORE_CORTEX_M33
+T7958 000:057.927         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME1\YTM32B1ME1.JLinkScript
+T7958 000:057.933         WorkRAMAddr:     0x20000000
+T7958 000:057.938         WorkRAMSize:     0x00010000
+T7958 000:057.944       FlashBankInfo:
+T7958 000:057.949         Name:            PFlash
+T7958 000:057.979         AlwaysPresent:   1
+T7958 000:057.984         LoaderInfo:
+T7958 000:057.989           Name:            PFlash
+T7958 000:057.994           MaxSize:         0x00080000
+T7958 000:058.000           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME1\YTM32B1ME1_Main.FLM
+T7958 000:058.005           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:058.011       FlashBankInfo:
+T7958 000:058.016         Name:            NVR ROM
+T7958 000:058.021         BaseAddr:        0x10020000
+T7958 000:058.050         AlwaysPresent:   1
+T7958 000:058.055         LoaderInfo:
+T7958 000:058.060           Name:            NVR_ROM
+T7958 000:058.065           MaxSize:         0x00004000
+T7958 000:058.071           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME1\YTM32B1ME1_NVR_ROM.FLM
+T7958 000:058.081           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:058.090     Device entry created:  YTM32B1ME15
+T7958 000:058.093       ChipInfo:
+T7958 000:058.098         Vendor:          YTMicro
+T7958 000:058.103         Name:            YTM32B1ME15
+T7958 000:058.109         Core:            JLINK_CORE_CORTEX_M33
+T7958 000:058.126         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME1\YTM32B1ME1.JLinkScript
+T7958 000:058.132         WorkRAMAddr:     0x20000000
+T7958 000:058.137         WorkRAMSize:     0x00010000
+T7958 000:058.142       FlashBankInfo:
+T7958 000:058.147         Name:            PFlash
+T7958 000:058.173         AlwaysPresent:   1
+T7958 000:058.178         LoaderInfo:
+T7958 000:058.184           Name:            PFlash
+T7958 000:058.189           MaxSize:         0x00100000
+T7958 000:058.194           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME1\YTM32B1ME1_Main.FLM
+T7958 000:058.199           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:058.205       FlashBankInfo:
+T7958 000:058.210         Name:            NVR ROM
+T7958 000:058.215         BaseAddr:        0x10020000
+T7958 000:058.241         AlwaysPresent:   0
+T7958 000:058.247         LoaderInfo:
+T7958 000:058.252           Name:            NVR_ROM
+T7958 000:058.257           MaxSize:         0x00004000
+T7958 000:058.262           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32B1ME1\YTM32B1ME1_NVR_ROM.FLM
+T7958 000:058.268           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:058.519   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1LS0\Devices.xml
+T7958 000:059.402   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1LS0\Devices.xml evaluated successfully.
+T7958 000:059.413     Device entry created:  YTM32Z1LS06
+T7958 000:059.417       ChipInfo:
+T7958 000:059.422         Vendor:          YTMicro
+T7958 000:059.428         Name:            YTM32Z1LS06
+T7958 000:059.434         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:059.457         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1LS0\YTM32Z1LS0.JLinkScript
+T7958 000:059.463         WorkRAMAddr:     0x20000000
+T7958 000:059.468         WorkRAMSize:     0x00004000
+T7958 000:059.473       FlashBankInfo:
+T7958 000:059.479         Name:            Internal PFlash
+T7958 000:059.508         AlwaysPresent:   1
+T7958 000:059.513         LoaderInfo:
+T7958 000:059.518           Name:            Internal_PFlash
+T7958 000:059.523           MaxSize:         0x00020000
+T7958 000:059.529           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1LS0\YTM32Z1LS0_Main.FLM
+T7958 000:059.534           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:059.540       FlashBankInfo:
+T7958 000:059.545         Name:            Internal DFlash
+T7958 000:059.550         BaseAddr:        0x10000000
+T7958 000:059.577         AlwaysPresent:   1
+T7958 000:059.582         LoaderInfo:
+T7958 000:059.588           Name:            Internal_DFlash
+T7958 000:059.593           MaxSize:         0x00000800
+T7958 000:059.598           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1LS0\YTM32Z1LS0_Dflash.FLM
+T7958 000:059.604           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:059.609       FlashBankInfo:
+T7958 000:059.614         Name:            Internal OTP NVR
+T7958 000:059.619         BaseAddr:        0x10000800
+T7958 000:059.646         AlwaysPresent:   0
+T7958 000:059.652         LoaderInfo:
+T7958 000:059.657           Name:            Internal_OTP_NVR
+T7958 000:059.662           MaxSize:         0x00000200
+T7958 000:059.668           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1LS0\YTM32Z1LS0_OTP_NVR.FLM
+T7958 000:059.673           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:059.678       FlashBankInfo:
+T7958 000:059.686         Name:            Internal CUS NVR
+T7958 000:059.691         BaseAddr:        0x10000A00
+T7958 000:059.719         AlwaysPresent:   0
+T7958 000:059.724         LoaderInfo:
+T7958 000:059.729           Name:            Internal_CUS_NVR
+T7958 000:059.734           MaxSize:         0x00000200
+T7958 000:059.740           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1LS0\YTM32Z1LS0_CUS_NVR.FLM
+T7958 000:059.745           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:060.029   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1MC0\Devices.xml
+T7958 000:060.891   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1MC0\Devices.xml evaluated successfully.
+T7958 000:060.900     Device entry created:  YTM32Z1MC03
+T7958 000:060.904       ChipInfo:
+T7958 000:060.910         Vendor:          YTMicro
+T7958 000:060.915         Name:            YTM32Z1MC03
+T7958 000:060.921         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:060.944         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1MC0\YTM32Z1MC0.JLinkScript
+T7958 000:060.950         WorkRAMAddr:     0x20000000
+T7958 000:060.956         WorkRAMSize:     0x00001000
+T7958 000:060.961       FlashBankInfo:
+T7958 000:060.966         Name:            Internal PFlash
+T7958 000:060.995         AlwaysPresent:   1
+T7958 000:061.001         LoaderInfo:
+T7958 000:061.018           Name:            Internal_PFlash
+T7958 000:061.023           MaxSize:         0x00008000
+T7958 000:061.029           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1MC0\YTM32Z1MC0_Main.FLM
+T7958 000:061.034           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:061.041       FlashBankInfo:
+T7958 000:061.048         Name:            Internal DFlash
+T7958 000:061.055         BaseAddr:        0x00100000
+T7958 000:061.090         AlwaysPresent:   1
+T7958 000:061.096         LoaderInfo:
+T7958 000:061.101           Name:            Internal_DFlash
+T7958 000:061.106           MaxSize:         0x000000C0
+T7958 000:061.112           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1MC0\YTM32Z1MC0_Dflash.FLM
+T7958 000:061.118           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:061.363   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1MD0\Devices.xml
+T7958 000:062.235   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1MD0\Devices.xml evaluated successfully.
+T7958 000:062.244     Device entry created:  YTM32Z1MD04
+T7958 000:062.248       ChipInfo:
+T7958 000:062.253         Vendor:          YTMicro
+T7958 000:062.259         Name:            YTM32Z1MD04
+T7958 000:062.264         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:062.285         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1MD0\YTM32Z1MD0.JLinkScript
+T7958 000:062.291         WorkRAMAddr:     0x20000000
+T7958 000:062.296         WorkRAMSize:     0x00001000
+T7958 000:062.302       FlashBankInfo:
+T7958 000:062.307         Name:            Main Flash
+T7958 000:062.336         AlwaysPresent:   1
+T7958 000:062.341         LoaderInfo:
+T7958 000:062.346           Name:            Main_Flash
+T7958 000:062.352           MaxSize:         0x0000C000
+T7958 000:062.357           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1MD0\YTM32Z1MD0_Main.FLM
+T7958 000:062.362           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:062.587   XML file found at: C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1ME0\Devices.xml
+T7958 000:063.444   C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1ME0\Devices.xml evaluated successfully.
+T7958 000:063.452     Device entry created:  YTM32Z1ME05
+T7958 000:063.456       ChipInfo:
+T7958 000:063.461         Vendor:          YTMicro
+T7958 000:063.466         Name:            YTM32Z1ME05
+T7958 000:063.472         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:063.538         Script:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1ME0\YTM32Z1ME0.JLinkScript
+T7958 000:063.543         WorkRAMAddr:     0x20000000
+T7958 000:063.549         WorkRAMSize:     0x00001000
+T7958 000:063.554       FlashBankInfo:
+T7958 000:063.559         Name:            Main Flash
+T7958 000:063.590         AlwaysPresent:   1
+T7958 000:063.595         LoaderInfo:
+T7958 000:063.600           Name:            Main_Flash
+T7958 000:063.606           MaxSize:         0x0000F000
+T7958 000:063.611           Loader:          C:\Users\xukai\AppData\Roaming\SEGGER\JLinkDevices\YTMicro\YTM32Z1ME0\YTM32Z1ME0_Main.FLM
+T7958 000:063.616           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:064.021   Ref file found at: d:\Keil\ARM\Segger\JLinkDevices.ref
+T7958 000:064.099   XML referenced by ref file: C:\Program Files\SEGGER\JLink_V794\JLinkDevices.xml
+T7958 000:065.074   C:\Program Files\SEGGER\JLink_V794\JLinkDevices.xml evaluated successfully.
+T7958 000:065.087     Device entry created:  Z20K114M
+T7958 000:065.092       ChipInfo:
+T7958 000:065.098         Vendor:          ZhiXin
+T7958 000:065.103         Name:            Z20K114M
+T7958 000:065.109         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:065.136         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K114M\Z20K114M.JLinkScript
+T7958 000:065.143         WorkRAMAddr:     0x20000000
+T7958 000:065.148         WorkRAMSize:     0x00002000
+T7958 000:065.154       FlashBankInfo:
+T7958 000:065.159         Name:            Internes Flash
+T7958 000:065.192         AlwaysPresent:   1
+T7958 000:065.198         LoaderInfo:
+T7958 000:065.203           Name:            Internes_Flash
+T7958 000:065.208           MaxSize:         0x00010000
+T7958 000:065.214           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K114M\Z20K114M_64KB_MainFlash.elf
+T7958 000:065.219           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.225       FlashBankInfo:
+T7958 000:065.230         Name:            Internes Flash
+T7958 000:065.235         BaseAddr:        0x01000000
+T7958 000:065.263         AlwaysPresent:   1
+T7958 000:065.268         LoaderInfo:
+T7958 000:065.274           Name:            Internes_Flash
+T7958 000:065.279           MaxSize:         0x00010000
+T7958 000:065.284           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K114M\Z20K114M_64KB_DataFlash.elf
+T7958 000:065.290           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.295       FlashBankInfo:
+T7958 000:065.300         Name:            Internes Flash
+T7958 000:065.305         BaseAddr:        0x02000000
+T7958 000:065.333         AlwaysPresent:   1
+T7958 000:065.338         LoaderInfo:
+T7958 000:065.343           Name:            Internes_Flash
+T7958 000:065.348           MaxSize:         0x00008000
+T7958 000:065.353           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K114M\Z20K114M_32KB_IfrFlash.elf
+T7958 000:065.359           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.367     Device entry modified: Z20K114N
+T7958 000:065.392       ChipInfo:
+T7958 000:065.398         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K114N\Z20K114N.JLinkScript
+T7958 000:065.403       FlashBankInfo:
+T7958 000:065.408         Name:            Internes Flash
+T7958 000:065.436         AlwaysPresent:   1
+T7958 000:065.446         LoaderInfo:
+T7958 000:065.451           Name:            Internes_Flash
+T7958 000:065.456           MaxSize:         0x00010000
+T7958 000:065.462           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K114N\Z20K114N_64KB_MainFlash.elf
+T7958 000:065.467           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.472       FlashBankInfo:
+T7958 000:065.477         Name:            Internes Flash
+T7958 000:065.482         BaseAddr:        0x01000000
+T7958 000:065.509         AlwaysPresent:   1
+T7958 000:065.515         LoaderInfo:
+T7958 000:065.523           Name:            Internes_Flash
+T7958 000:065.528           MaxSize:         0x00010000
+T7958 000:065.534           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K114N\Z20K114N_64KB_DataFlash.elf
+T7958 000:065.539           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.544       FlashBankInfo:
+T7958 000:065.549         Name:            Internes Flash
+T7958 000:065.554         BaseAddr:        0x02000000
+T7958 000:065.582         AlwaysPresent:   1
+T7958 000:065.587         LoaderInfo:
+T7958 000:065.592           Name:            Internes_Flash
+T7958 000:065.597           MaxSize:         0x00004000
+T7958 000:065.612           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K114N\Z20K114N_16KB_IfrFlash.elf
+T7958 000:065.617           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.625     Device entry created:  Z20K116M
+T7958 000:065.629       ChipInfo:
+T7958 000:065.634         Vendor:          ZhiXin
+T7958 000:065.639         Name:            Z20K116M
+T7958 000:065.645         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:065.662         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K116M\Z20K116M.JLinkScript
+T7958 000:065.667         WorkRAMAddr:     0x20000000
+T7958 000:065.672         WorkRAMSize:     0x00004000
+T7958 000:065.677       FlashBankInfo:
+T7958 000:065.683         Name:            Internes Flash
+T7958 000:065.711         AlwaysPresent:   1
+T7958 000:065.716         LoaderInfo:
+T7958 000:065.721           Name:            Internes_Flash
+T7958 000:065.726           MaxSize:         0x00020000
+T7958 000:065.732           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K116M\Z20K116M_128KB_MainFlash.elf
+T7958 000:065.738           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.743       FlashBankInfo:
+T7958 000:065.748         Name:            Internes Flash
+T7958 000:065.753         BaseAddr:        0x01000000
+T7958 000:065.780         AlwaysPresent:   1
+T7958 000:065.786         LoaderInfo:
+T7958 000:065.791           Name:            Internes_Flash
+T7958 000:065.796           MaxSize:         0x00020000
+T7958 000:065.802           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K116M\Z20K116M_128KB_DataFlash.elf
+T7958 000:065.807           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.812       FlashBankInfo:
+T7958 000:065.817         Name:            Internes Flash
+T7958 000:065.822         BaseAddr:        0x02000000
+T7958 000:065.849         AlwaysPresent:   1
+T7958 000:065.855         LoaderInfo:
+T7958 000:065.860           Name:            Internes_Flash
+T7958 000:065.865           MaxSize:         0x00008000
+T7958 000:065.871           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K116M\Z20K116M_32KB_IfrFlash.elf
+T7958 000:065.876           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.883     Device entry modified: Z20K116N
+T7958 000:065.898       ChipInfo:
+T7958 000:065.904         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K116N\Z20K116N.JLinkScript
+T7958 000:065.909       FlashBankInfo:
+T7958 000:065.914         Name:            Internes Flash
+T7958 000:065.942         AlwaysPresent:   1
+T7958 000:065.947         LoaderInfo:
+T7958 000:065.952           Name:            Internes_Flash
+T7958 000:065.957           MaxSize:         0x00020000
+T7958 000:065.963           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K116N\Z20K116N_128KB_MainFlash.elf
+T7958 000:065.968           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:065.973       FlashBankInfo:
+T7958 000:065.978         Name:            Internes Flash
+T7958 000:065.983         BaseAddr:        0x01000000
+T7958 000:066.010         AlwaysPresent:   1
+T7958 000:066.015         LoaderInfo:
+T7958 000:066.020           Name:            Internes_Flash
+T7958 000:066.026           MaxSize:         0x00020000
+T7958 000:066.031           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K116N\Z20K116N_128KB_DataFlash.elf
+T7958 000:066.038           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.043       FlashBankInfo:
+T7958 000:066.048         Name:            Internes Flash
+T7958 000:066.053         BaseAddr:        0x02000000
+T7958 000:066.080         AlwaysPresent:   1
+T7958 000:066.085         LoaderInfo:
+T7958 000:066.090           Name:            Internes_Flash
+T7958 000:066.096           MaxSize:         0x00004000
+T7958 000:066.101           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K116N\Z20K116N_16KB_IfrFlash.elf
+T7958 000:066.106           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.113     Device entry created:  Z20K118M
+T7958 000:066.117       ChipInfo:
+T7958 000:066.122         Vendor:          ZhiXin
+T7958 000:066.127         Name:            Z20K118M
+T7958 000:066.132         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:066.148         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K118M\Z20K118M.JLinkScript
+T7958 000:066.154         WorkRAMAddr:     0x20000000
+T7958 000:066.159         WorkRAMSize:     0x00004000
+T7958 000:066.164       FlashBankInfo:
+T7958 000:066.169         Name:            Internes Flash
+T7958 000:066.197         AlwaysPresent:   1
+T7958 000:066.202         LoaderInfo:
+T7958 000:066.208           Name:            Internes_Flash
+T7958 000:066.213           MaxSize:         0x00040000
+T7958 000:066.218           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K118M\Z20K118M_256KB_MainFlash.elf
+T7958 000:066.224           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.230       FlashBankInfo:
+T7958 000:066.237         Name:            Internes Flash
+T7958 000:066.244         BaseAddr:        0x01000000
+T7958 000:066.286         AlwaysPresent:   1
+T7958 000:066.294         LoaderInfo:
+T7958 000:066.301           Name:            Internes_Flash
+T7958 000:066.308           MaxSize:         0x00020000
+T7958 000:066.315           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K118M\Z20K118M_128KB_DataFlash.elf
+T7958 000:066.322           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.330       FlashBankInfo:
+T7958 000:066.336         Name:            Internes Flash
+T7958 000:066.343         BaseAddr:        0x02000000
+T7958 000:066.382         AlwaysPresent:   1
+T7958 000:066.389         LoaderInfo:
+T7958 000:066.396           Name:            Internes_Flash
+T7958 000:066.403           MaxSize:         0x00008000
+T7958 000:066.409           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K118M\Z20K118M_32KB_IfrFlash.elf
+T7958 000:066.415           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.423     Device entry modified: Z20K118N
+T7958 000:066.440       ChipInfo:
+T7958 000:066.446         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K118N\Z20K118N.JLinkScript
+T7958 000:066.451         WorkRAMAddr:     0x1FFFC000
+T7958 000:066.457         WorkRAMSize:     0x00008000
+T7958 000:066.462       FlashBankInfo:
+T7958 000:066.467         Name:            Internes Flash
+T7958 000:066.495         AlwaysPresent:   1
+T7958 000:066.501         LoaderInfo:
+T7958 000:066.506           Name:            Internes_Flash
+T7958 000:066.512           MaxSize:         0x00040000
+T7958 000:066.517           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K118N\Z20K118N_256KB_MainFlash.elf
+T7958 000:066.523           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.528       FlashBankInfo:
+T7958 000:066.533         Name:            Internes Flash
+T7958 000:066.538         BaseAddr:        0x01000000
+T7958 000:066.565         AlwaysPresent:   1
+T7958 000:066.571         LoaderInfo:
+T7958 000:066.576           Name:            Internes_Flash
+T7958 000:066.581           MaxSize:         0x00020000
+T7958 000:066.587           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K118N\Z20K118N_128KB_DataFlash.elf
+T7958 000:066.595           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.600       FlashBankInfo:
+T7958 000:066.605         Name:            Internes Flash
+T7958 000:066.610         BaseAddr:        0x02000000
+T7958 000:066.638         AlwaysPresent:   1
+T7958 000:066.644         LoaderInfo:
+T7958 000:066.649           Name:            Internes_Flash
+T7958 000:066.654           MaxSize:         0x00004000
+T7958 000:066.659           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K118N\Z20K118N_16KB_IfrFlash.elf
+T7958 000:066.665           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.672     Device entry modified: Z20K142MS
+T7958 000:066.687       ChipInfo:
+T7958 000:066.693         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K142MS\Z20K142MS.JLinkScript
+T7958 000:066.699       FlashBankInfo:
+T7958 000:066.704         Name:            Internes Flash
+T7958 000:066.734         AlwaysPresent:   1
+T7958 000:066.739         LoaderInfo:
+T7958 000:066.744           Name:            Internes_Flash
+T7958 000:066.749           MaxSize:         0x00040000
+T7958 000:066.755           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K142MS\Z20K142MS_256KB_MainFlash.elf
+T7958 000:066.760           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.765       FlashBankInfo:
+T7958 000:066.771         Name:            Internes Flash
+T7958 000:066.776         BaseAddr:        0x01000000
+T7958 000:066.806         AlwaysPresent:   1
+T7958 000:066.811         LoaderInfo:
+T7958 000:066.816           Name:            Internes_Flash
+T7958 000:066.821           MaxSize:         0x00020000
+T7958 000:066.827           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K142MS\Z20K142MS_128KB_DataFlash.elf
+T7958 000:066.832           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.837       FlashBankInfo:
+T7958 000:066.842         Name:            Internes Flash
+T7958 000:066.847         BaseAddr:        0x02000000
+T7958 000:066.877         AlwaysPresent:   1
+T7958 000:066.882         LoaderInfo:
+T7958 000:066.888           Name:            Internes_Flash
+T7958 000:066.893           MaxSize:         0x00008000
+T7958 000:066.899           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K142MS\Z20K142MS_32KB_IfrFlash.elf
+T7958 000:066.904           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:066.911     Device entry created:  Z20K144M
+T7958 000:066.915       ChipInfo:
+T7958 000:066.920         Vendor:          ZhiXin
+T7958 000:066.925         Name:            Z20K144M
+T7958 000:066.932         Core:            JLINK_CORE_CORTEX_M4
+T7958 000:066.949         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K144M\Z20K144M.JLinkScript
+T7958 000:066.954         WorkRAMAddr:     0x20000000
+T7958 000:066.959         WorkRAMSize:     0x00004000
+T7958 000:066.965       FlashBankInfo:
+T7958 000:066.970         Name:            Internes Flash
+T7958 000:066.997         AlwaysPresent:   1
+T7958 000:067.003         LoaderInfo:
+T7958 000:067.008           Name:            Internes_Flash
+T7958 000:067.013           MaxSize:         0x00080000
+T7958 000:067.019           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K144M\Z20K144M_512KB_MainFlash.elf
+T7958 000:067.024           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.029       FlashBankInfo:
+T7958 000:067.034         Name:            Internes Flash
+T7958 000:067.039         BaseAddr:        0x01000000
+T7958 000:067.066         AlwaysPresent:   1
+T7958 000:067.071         LoaderInfo:
+T7958 000:067.076           Name:            Internes_Flash
+T7958 000:067.082           MaxSize:         0x00020000
+T7958 000:067.087           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K144M\Z20K144M_128KB_DataFlash.elf
+T7958 000:067.092           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.097       FlashBankInfo:
+T7958 000:067.104         Name:            Internes Flash
+T7958 000:067.109         BaseAddr:        0x02000000
+T7958 000:067.137         AlwaysPresent:   1
+T7958 000:067.142         LoaderInfo:
+T7958 000:067.147           Name:            Internes_Flash
+T7958 000:067.153           MaxSize:         0x00008000
+T7958 000:067.158           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K144M\Z20K144M_32KB_IfrFlash.elf
+T7958 000:067.163           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.170     Device entry modified: Z20K144MS
+T7958 000:067.186       ChipInfo:
+T7958 000:067.192         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K144MS\Z20K144MS.JLinkScript
+T7958 000:067.198         WorkRAMSize:     0x00008000
+T7958 000:067.203       FlashBankInfo:
+T7958 000:067.208         Name:            Internes Flash
+T7958 000:067.238         AlwaysPresent:   1
+T7958 000:067.243         LoaderInfo:
+T7958 000:067.248           Name:            Internes_Flash
+T7958 000:067.254           MaxSize:         0x00080000
+T7958 000:067.259           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K144MS\Z20K144MS_512KB_MainFlash.elf
+T7958 000:067.265           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.270       FlashBankInfo:
+T7958 000:067.275         Name:            Internes Flash
+T7958 000:067.280         BaseAddr:        0x01000000
+T7958 000:067.308         AlwaysPresent:   1
+T7958 000:067.313         LoaderInfo:
+T7958 000:067.318           Name:            Internes_Flash
+T7958 000:067.324           MaxSize:         0x00020000
+T7958 000:067.329           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K144MS\Z20K144MS_128KB_DataFlash.elf
+T7958 000:067.334           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.339       FlashBankInfo:
+T7958 000:067.345         Name:            Internes Flash
+T7958 000:067.350         BaseAddr:        0x02000000
+T7958 000:067.378         AlwaysPresent:   1
+T7958 000:067.383         LoaderInfo:
+T7958 000:067.388           Name:            Internes_Flash
+T7958 000:067.393           MaxSize:         0x00008000
+T7958 000:067.399           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K144MS\Z20K144MS_32KB_IfrFlash.elf
+T7958 000:067.404           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.411     Device entry created:  Z20K146M
+T7958 000:067.415       ChipInfo:
+T7958 000:067.420         Vendor:          ZhiXin
+T7958 000:067.425         Name:            Z20K146M
+T7958 000:067.431         Core:            JLINK_CORE_CORTEX_M4
+T7958 000:067.447         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146M\Z20K146M.JLinkScript
+T7958 000:067.453         WorkRAMAddr:     0x20000000
+T7958 000:067.458         WorkRAMSize:     0x00004000
+T7958 000:067.463       FlashBankInfo:
+T7958 000:067.468         Name:            Internes Flash
+T7958 000:067.496         AlwaysPresent:   1
+T7958 000:067.501         LoaderInfo:
+T7958 000:067.506           Name:            Internes_Flash
+T7958 000:067.511           MaxSize:         0x00100000
+T7958 000:067.517           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146M\Z20K146M_1MB_MainFlash.elf
+T7958 000:067.522           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.527       FlashBankInfo:
+T7958 000:067.532         Name:            Internes Flash
+T7958 000:067.538         BaseAddr:        0x01000000
+T7958 000:067.565         AlwaysPresent:   1
+T7958 000:067.570         LoaderInfo:
+T7958 000:067.575           Name:            Internes_Flash
+T7958 000:067.580           MaxSize:         0x00020000
+T7958 000:067.586           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146M\Z20K146M_128KB_DataFlash.elf
+T7958 000:067.591           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.596       FlashBankInfo:
+T7958 000:067.601         Name:            Internes Flash
+T7958 000:067.615         BaseAddr:        0x02000000
+T7958 000:067.643         AlwaysPresent:   1
+T7958 000:067.648         LoaderInfo:
+T7958 000:067.653           Name:            Internes_Flash
+T7958 000:067.658           MaxSize:         0x00008000
+T7958 000:067.664           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146M\Z20K146M_32KB_IfrFlash.elf
+T7958 000:067.669           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.676     Device entry created:  Z20K146MS
+T7958 000:067.680       ChipInfo:
+T7958 000:067.685         Vendor:          ZhiXin
+T7958 000:067.691         Name:            Z20K146MS
+T7958 000:067.697         Core:            JLINK_CORE_CORTEX_M4
+T7958 000:067.714         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146MS\Z20K146MS.JLinkScript
+T7958 000:067.720         WorkRAMAddr:     0x20000000
+T7958 000:067.725         WorkRAMSize:     0x00020000
+T7958 000:067.730       FlashBankInfo:
+T7958 000:067.735         Name:            Internes Flash
+T7958 000:067.763         AlwaysPresent:   1
+T7958 000:067.768         LoaderInfo:
+T7958 000:067.773           Name:            Internes_Flash
+T7958 000:067.779           MaxSize:         0x00080000
+T7958 000:067.784           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146MS\Z20K146MS_512KB_PFlash0.elf
+T7958 000:067.789           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.795       FlashBankInfo:
+T7958 000:067.800         Name:            Internes Flash
+T7958 000:067.805         BaseAddr:        0x00080000
+T7958 000:067.833         AlwaysPresent:   1
+T7958 000:067.838         LoaderInfo:
+T7958 000:067.844           Name:            Internes_Flash
+T7958 000:067.849           MaxSize:         0x00080000
+T7958 000:067.854           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146MS\Z20K146MS_512KB_PFlash1.elf
+T7958 000:067.860           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.865       FlashBankInfo:
+T7958 000:067.870         Name:            Internes Flash
+T7958 000:067.875         BaseAddr:        0x01000000
+T7958 000:067.902         AlwaysPresent:   1
+T7958 000:067.908         LoaderInfo:
+T7958 000:067.913           Name:            Internes_Flash
+T7958 000:067.918           MaxSize:         0x00020000
+T7958 000:067.924           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146MS\Z20K146MS_128KB_DataFlash.elf
+T7958 000:067.929           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:067.934       FlashBankInfo:
+T7958 000:067.939         Name:            Internes Flash
+T7958 000:067.945         BaseAddr:        0x02000000
+T7958 000:067.973         AlwaysPresent:   1
+T7958 000:067.978         LoaderInfo:
+T7958 000:067.983           Name:            Internes_Flash
+T7958 000:067.988           MaxSize:         0x00008000
+T7958 000:067.994           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146MS\Z20K146MS_32KB_IfrFlash0.elf
+T7958 000:067.999           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.004       FlashBankInfo:
+T7958 000:068.009         Name:            Internes Flash
+T7958 000:068.015         BaseAddr:        0x02008000
+T7958 000:068.043         AlwaysPresent:   1
+T7958 000:068.048         LoaderInfo:
+T7958 000:068.053           Name:            Internes_Flash
+T7958 000:068.059           MaxSize:         0x00008000
+T7958 000:068.064           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K146MS\Z20K146MS_32KB_IfrFlash1.elf
+T7958 000:068.070           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.077     Device entry created:  Z20K148M
+T7958 000:068.081       ChipInfo:
+T7958 000:068.086         Vendor:          ZhiXin
+T7958 000:068.091         Name:            Z20K148M
+T7958 000:068.097         Core:            JLINK_CORE_CORTEX_M4
+T7958 000:068.115         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148M\Z20K148M.JLinkScript
+T7958 000:068.120         WorkRAMAddr:     0x20000000
+T7958 000:068.127         WorkRAMSize:     0x00004000
+T7958 000:068.133       FlashBankInfo:
+T7958 000:068.138         Name:            Internes Flash
+T7958 000:068.174         AlwaysPresent:   1
+T7958 000:068.179         LoaderInfo:
+T7958 000:068.184           Name:            Internes_Flash
+T7958 000:068.189           MaxSize:         0x00200000
+T7958 000:068.195           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148M\Z20K148M_2MB_MainFlash.elf
+T7958 000:068.200           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.205       FlashBankInfo:
+T7958 000:068.211         Name:            Internes Flash
+T7958 000:068.216         BaseAddr:        0x01000000
+T7958 000:068.262         AlwaysPresent:   1
+T7958 000:068.270         LoaderInfo:
+T7958 000:068.277           Name:            Internes_Flash
+T7958 000:068.285           MaxSize:         0x00020000
+T7958 000:068.293           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148M\Z20K148M_128KB_DataFlash.elf
+T7958 000:068.300           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.308       FlashBankInfo:
+T7958 000:068.315         Name:            Internes Flash
+T7958 000:068.322         BaseAddr:        0x02000000
+T7958 000:068.369         AlwaysPresent:   1
+T7958 000:068.375         LoaderInfo:
+T7958 000:068.380           Name:            Internes_Flash
+T7958 000:068.385           MaxSize:         0x00008000
+T7958 000:068.391           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148M\Z20K148M_32KB_IfrFlash.elf
+T7958 000:068.396           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.405     Device entry created:  Z20K148MS
+T7958 000:068.408       ChipInfo:
+T7958 000:068.413         Vendor:          ZhiXin
+T7958 000:068.418         Name:            Z20K148MS
+T7958 000:068.424         Core:            JLINK_CORE_CORTEX_M4
+T7958 000:068.443         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148MS\Z20K148MS.JLinkScript
+T7958 000:068.449         WorkRAMAddr:     0x20000000
+T7958 000:068.454         WorkRAMSize:     0x00020000
+T7958 000:068.459       FlashBankInfo:
+T7958 000:068.464         Name:            Internes Flash
+T7958 000:068.493         AlwaysPresent:   1
+T7958 000:068.498         LoaderInfo:
+T7958 000:068.503           Name:            Internes_Flash
+T7958 000:068.508           MaxSize:         0x00100000
+T7958 000:068.514           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148MS\Z20K148MS_1024KB_PFlash0.elf
+T7958 000:068.519           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.524       FlashBankInfo:
+T7958 000:068.529         Name:            Internes Flash
+T7958 000:068.535         BaseAddr:        0x00100000
+T7958 000:068.562         AlwaysPresent:   1
+T7958 000:068.567         LoaderInfo:
+T7958 000:068.572           Name:            Internes_Flash
+T7958 000:068.577           MaxSize:         0x00100000
+T7958 000:068.583           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148MS\Z20K148MS_1024KB_PFlash1.elf
+T7958 000:068.588           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.593       FlashBankInfo:
+T7958 000:068.598         Name:            Internes Flash
+T7958 000:068.603         BaseAddr:        0x01000000
+T7958 000:068.631         AlwaysPresent:   1
+T7958 000:068.636         LoaderInfo:
+T7958 000:068.641           Name:            Internes_Flash
+T7958 000:068.646           MaxSize:         0x00020000
+T7958 000:068.652           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148MS\Z20K148MS_128KB_DataFlash.elf
+T7958 000:068.657           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.662       FlashBankInfo:
+T7958 000:068.667         Name:            Internes Flash
+T7958 000:068.672         BaseAddr:        0x02000000
+T7958 000:068.699         AlwaysPresent:   1
+T7958 000:068.705         LoaderInfo:
+T7958 000:068.710           Name:            Internes_Flash
+T7958 000:068.718           MaxSize:         0x00008000
+T7958 000:068.723           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148MS\Z20K148MS_32KB_IfrFlash0.elf
+T7958 000:068.728           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.733       FlashBankInfo:
+T7958 000:068.739         Name:            Internes Flash
+T7958 000:068.744         BaseAddr:        0x02008000
+T7958 000:068.771         AlwaysPresent:   1
+T7958 000:068.776         LoaderInfo:
+T7958 000:068.781           Name:            Internes_Flash
+T7958 000:068.786           MaxSize:         0x00008000
+T7958 000:068.792           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K148MS\Z20K148MS_32KB_IfrFlash1.elf
+T7958 000:068.797           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.804     Device entry created:  Z20K342ME
+T7958 000:068.808       ChipInfo:
+T7958 000:068.813         Vendor:          ZhiXin
+T7958 000:068.818         Name:            Z20K342ME
+T7958 000:068.824         Core:            JLINK_CORE_CORTEX_R5
+T7958 000:068.840         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K342ME\Z20K342ME.JLinkScript
+T7958 000:068.845         WorkRAMAddr:     0x30040000
+T7958 000:068.850         WorkRAMSize:     0x00040000
+T7958 000:068.855       FlashBankInfo:
+T7958 000:068.860         Name:            Internes Flash
+T7958 000:068.888         AlwaysPresent:   1
+T7958 000:068.894         LoaderInfo:
+T7958 000:068.899           Name:            Internes_Flash
+T7958 000:068.904           MaxSize:         0x00040000
+T7958 000:068.910           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K342ME\Z20K3xxME_256KB_BootloaderFlash.elf
+T7958 000:068.915           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.920       FlashBankInfo:
+T7958 000:068.925         Name:            Internes Flash
+T7958 000:068.931         BaseAddr:        0x00100000
+T7958 000:068.957         AlwaysPresent:   1
+T7958 000:068.962         LoaderInfo:
+T7958 000:068.967           Name:            Internes_Flash
+T7958 000:068.972           MaxSize:         0x00400000
+T7958 000:068.978           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K342ME\Z20K342ME_2MB_MainFlash0.elf
+T7958 000:068.983           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:068.988       FlashBankInfo:
+T7958 000:068.993         Name:            Internes Flash
+T7958 000:068.998         BaseAddr:        0x00500000
+T7958 000:069.025         AlwaysPresent:   1
+T7958 000:069.031         LoaderInfo:
+T7958 000:069.036           Name:            Internes_Flash
+T7958 000:069.041           MaxSize:         0x00400000
+T7958 000:069.046           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K342ME\Z20K342ME_2MB_MainFlash1.elf
+T7958 000:069.052           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.057       FlashBankInfo:
+T7958 000:069.062         Name:            Internes Flash
+T7958 000:069.067         BaseAddr:        0x02000000
+T7958 000:069.094         AlwaysPresent:   1
+T7958 000:069.100         LoaderInfo:
+T7958 000:069.105           Name:            Internes_Flash
+T7958 000:069.110           MaxSize:         0x00040000
+T7958 000:069.116           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K342ME\Z20K3xxME_256KB_DataFlash.elf
+T7958 000:069.121           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.126       FlashBankInfo:
+T7958 000:069.131         Name:            Internes Flash
+T7958 000:069.136         BaseAddr:        0x04000000
+T7958 000:069.165         AlwaysPresent:   1
+T7958 000:069.170         LoaderInfo:
+T7958 000:069.176           Name:            Internes_Flash
+T7958 000:069.181           MaxSize:         0x00004000
+T7958 000:069.186           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K342ME\Z20K3xxME_16KB_IfrFlash.elf
+T7958 000:069.191           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.196       FlashBankInfo:
+T7958 000:069.239         Name:            Internes Flash
+T7958 000:069.245         BaseAddr:        0x04100000
+T7958 000:069.278         AlwaysPresent:   1
+T7958 000:069.283         LoaderInfo:
+T7958 000:069.288           Name:            Internes_Flash
+T7958 000:069.293           MaxSize:         0x00002000
+T7958 000:069.299           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K3xxME_8KB_BootloaderIfrFlash.elf
+T7958 000:069.304           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.312     Device entry created:  Z20K343ME
+T7958 000:069.315       ChipInfo:
+T7958 000:069.320         Vendor:          ZhiXin
+T7958 000:069.326         Name:            Z20K343ME
+T7958 000:069.331         Core:            JLINK_CORE_CORTEX_R5
+T7958 000:069.348         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K343ME\Z20K343ME.JLinkScript
+T7958 000:069.354         WorkRAMAddr:     0x30040000
+T7958 000:069.359         WorkRAMSize:     0x00040000
+T7958 000:069.364       FlashBankInfo:
+T7958 000:069.369         Name:            Internes Flash
+T7958 000:069.397         AlwaysPresent:   1
+T7958 000:069.403         LoaderInfo:
+T7958 000:069.408           Name:            Internes_Flash
+T7958 000:069.413           MaxSize:         0x00040000
+T7958 000:069.419           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K343ME\Z20K3xxME_256KB_BootloaderFlash.elf
+T7958 000:069.424           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.429       FlashBankInfo:
+T7958 000:069.434         Name:            Internes Flash
+T7958 000:069.439         BaseAddr:        0x00100000
+T7958 000:069.467         AlwaysPresent:   1
+T7958 000:069.472         LoaderInfo:
+T7958 000:069.477           Name:            Internes_Flash
+T7958 000:069.482           MaxSize:         0x00400000
+T7958 000:069.488           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K343ME\Z20K343ME_3MB_MainFlash0.elf
+T7958 000:069.493           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.498       FlashBankInfo:
+T7958 000:069.503         Name:            Internes Flash
+T7958 000:069.508         BaseAddr:        0x00500000
+T7958 000:069.535         AlwaysPresent:   1
+T7958 000:069.540         LoaderInfo:
+T7958 000:069.545           Name:            Internes_Flash
+T7958 000:069.551           MaxSize:         0x00400000
+T7958 000:069.556           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K343ME\Z20K343ME_3MB_MainFlash1.elf
+T7958 000:069.561           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.566       FlashBankInfo:
+T7958 000:069.572         Name:            Internes Flash
+T7958 000:069.577         BaseAddr:        0x02000000
+T7958 000:069.604         AlwaysPresent:   1
+T7958 000:069.609         LoaderInfo:
+T7958 000:069.620           Name:            Internes_Flash
+T7958 000:069.625           MaxSize:         0x00040000
+T7958 000:069.631           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K343ME\Z20K3xxME_256KB_DataFlash.elf
+T7958 000:069.636           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.642       FlashBankInfo:
+T7958 000:069.647         Name:            Internes Flash
+T7958 000:069.652         BaseAddr:        0x04000000
+T7958 000:069.680         AlwaysPresent:   1
+T7958 000:069.685         LoaderInfo:
+T7958 000:069.690           Name:            Internes_Flash
+T7958 000:069.695           MaxSize:         0x00004000
+T7958 000:069.701           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K343ME\Z20K3xxME_16KB_IfrFlash.elf
+T7958 000:069.706           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.711       FlashBankInfo:
+T7958 000:069.716         Name:            Internes Flash
+T7958 000:069.721         BaseAddr:        0x04100000
+T7958 000:069.747         AlwaysPresent:   1
+T7958 000:069.753         LoaderInfo:
+T7958 000:069.758           Name:            Internes_Flash
+T7958 000:069.765           MaxSize:         0x00002000
+T7958 000:069.771           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K3xxME_8KB_BootloaderIfrFlash.elf
+T7958 000:069.776           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.783     Device entry created:  Z20K344ME
+T7958 000:069.787       ChipInfo:
+T7958 000:069.792         Vendor:          ZhiXin
+T7958 000:069.797         Name:            Z20K344ME
+T7958 000:069.803         Core:            JLINK_CORE_CORTEX_R5
+T7958 000:069.819         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K344ME\Z20K344ME.JLinkScript
+T7958 000:069.824         WorkRAMAddr:     0x30040000
+T7958 000:069.829         WorkRAMSize:     0x00040000
+T7958 000:069.834       FlashBankInfo:
+T7958 000:069.839         Name:            Internes Flash
+T7958 000:069.867         AlwaysPresent:   1
+T7958 000:069.873         LoaderInfo:
+T7958 000:069.878           Name:            Internes_Flash
+T7958 000:069.883           MaxSize:         0x00040000
+T7958 000:069.889           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K344ME\Z20K3xxME_256KB_BootloaderFlash.elf
+T7958 000:069.894           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.899       FlashBankInfo:
+T7958 000:069.904         Name:            Internes Flash
+T7958 000:069.909         BaseAddr:        0x00100000
+T7958 000:069.936         AlwaysPresent:   1
+T7958 000:069.941         LoaderInfo:
+T7958 000:069.946           Name:            Internes_Flash
+T7958 000:069.952           MaxSize:         0x00400000
+T7958 000:069.957           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K344ME\Z20K344ME_4MB_MainFlash0.elf
+T7958 000:069.962           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:069.967       FlashBankInfo:
+T7958 000:069.972         Name:            Internes Flash
+T7958 000:069.977         BaseAddr:        0x00500000
+T7958 000:070.004         AlwaysPresent:   1
+T7958 000:070.009         LoaderInfo:
+T7958 000:070.014           Name:            Internes_Flash
+T7958 000:070.019           MaxSize:         0x00400000
+T7958 000:070.025           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K344ME\Z20K344ME_4MB_MainFlash1.elf
+T7958 000:070.030           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.035       FlashBankInfo:
+T7958 000:070.040         Name:            Internes Flash
+T7958 000:070.046         BaseAddr:        0x02000000
+T7958 000:070.072         AlwaysPresent:   1
+T7958 000:070.078         LoaderInfo:
+T7958 000:070.083           Name:            Internes_Flash
+T7958 000:070.088           MaxSize:         0x00040000
+T7958 000:070.093           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K344ME\Z20K3xxME_256KB_DataFlash.elf
+T7958 000:070.099           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.104       FlashBankInfo:
+T7958 000:070.109         Name:            Internes Flash
+T7958 000:070.114         BaseAddr:        0x04000000
+T7958 000:070.142         AlwaysPresent:   1
+T7958 000:070.148         LoaderInfo:
+T7958 000:070.154           Name:            Internes_Flash
+T7958 000:070.160           MaxSize:         0x00004000
+T7958 000:070.168           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K344ME\Z20K3xxME_16KB_IfrFlash.elf
+T7958 000:070.176           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.184       FlashBankInfo:
+T7958 000:070.191         Name:            Internes Flash
+T7958 000:070.198         BaseAddr:        0x04100000
+T7958 000:070.244         AlwaysPresent:   1
+T7958 000:070.252         LoaderInfo:
+T7958 000:070.257           Name:            Internes_Flash
+T7958 000:070.262           MaxSize:         0x00002000
+T7958 000:070.268           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K3xxME_8KB_BootloaderIfrFlash.elf
+T7958 000:070.274           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.282     Device entry created:  Z20K352ME
+T7958 000:070.288       ChipInfo:
+T7958 000:070.293         Vendor:          ZhiXin
+T7958 000:070.298         Name:            Z20K352ME
+T7958 000:070.304         Core:            JLINK_CORE_CORTEX_R5
+T7958 000:070.322         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K352ME\Z20K352ME.JLinkScript
+T7958 000:070.327         WorkRAMAddr:     0x30040000
+T7958 000:070.332         WorkRAMSize:     0x00040000
+T7958 000:070.338       FlashBankInfo:
+T7958 000:070.343         Name:            Internes Flash
+T7958 000:070.371         AlwaysPresent:   1
+T7958 000:070.377         LoaderInfo:
+T7958 000:070.382           Name:            Internes_Flash
+T7958 000:070.387           MaxSize:         0x00040000
+T7958 000:070.393           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K352ME\Z20K3xxME_256KB_BootloaderFlash.elf
+T7958 000:070.398           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.403       FlashBankInfo:
+T7958 000:070.408         Name:            Internes Flash
+T7958 000:070.413         BaseAddr:        0x00100000
+T7958 000:070.440         AlwaysPresent:   1
+T7958 000:070.445         LoaderInfo:
+T7958 000:070.450           Name:            Internes_Flash
+T7958 000:070.455           MaxSize:         0x00400000
+T7958 000:070.461           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K352ME\Z20K352ME_2MB_MainFlash0.elf
+T7958 000:070.466           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.471       FlashBankInfo:
+T7958 000:070.476         Name:            Internes Flash
+T7958 000:070.482         BaseAddr:        0x00500000
+T7958 000:070.509         AlwaysPresent:   1
+T7958 000:070.514         LoaderInfo:
+T7958 000:070.519           Name:            Internes_Flash
+T7958 000:070.524           MaxSize:         0x00400000
+T7958 000:070.530           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K352ME\Z20K352ME_2MB_MainFlash1.elf
+T7958 000:070.535           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.540       FlashBankInfo:
+T7958 000:070.545         Name:            Internes Flash
+T7958 000:070.550         BaseAddr:        0x02000000
+T7958 000:070.577         AlwaysPresent:   1
+T7958 000:070.583         LoaderInfo:
+T7958 000:070.588           Name:            Internes_Flash
+T7958 000:070.593           MaxSize:         0x00040000
+T7958 000:070.599           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K352ME\Z20K3xxME_256KB_DataFlash.elf
+T7958 000:070.604           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.610       FlashBankInfo:
+T7958 000:070.615         Name:            Internes Flash
+T7958 000:070.620         BaseAddr:        0x04000000
+T7958 000:070.649         AlwaysPresent:   1
+T7958 000:070.654         LoaderInfo:
+T7958 000:070.660           Name:            Internes_Flash
+T7958 000:070.665           MaxSize:         0x00004000
+T7958 000:070.670           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K352ME\Z20K3xxME_16KB_IfrFlash.elf
+T7958 000:070.676           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.681       FlashBankInfo:
+T7958 000:070.686         Name:            Internes Flash
+T7958 000:070.691         BaseAddr:        0x04100000
+T7958 000:070.721         AlwaysPresent:   1
+T7958 000:070.727         LoaderInfo:
+T7958 000:070.732           Name:            Internes_Flash
+T7958 000:070.737           MaxSize:         0x00002000
+T7958 000:070.743           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K3xxME_8KB_BootloaderIfrFlash.elf
+T7958 000:070.748           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.755     Device entry created:  Z20K353ME
+T7958 000:070.759       ChipInfo:
+T7958 000:070.764         Vendor:          ZhiXin
+T7958 000:070.769         Name:            Z20K353ME
+T7958 000:070.775         Core:            JLINK_CORE_CORTEX_R5
+T7958 000:070.796         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K353ME\Z20K353ME.JLinkScript
+T7958 000:070.803         WorkRAMAddr:     0x30040000
+T7958 000:070.809         WorkRAMSize:     0x00040000
+T7958 000:070.814       FlashBankInfo:
+T7958 000:070.819         Name:            Internes Flash
+T7958 000:070.850         AlwaysPresent:   1
+T7958 000:070.855         LoaderInfo:
+T7958 000:070.861           Name:            Internes_Flash
+T7958 000:070.866           MaxSize:         0x00040000
+T7958 000:070.872           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K353ME\Z20K3xxME_256KB_BootloaderFlash.elf
+T7958 000:070.877           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.883       FlashBankInfo:
+T7958 000:070.888         Name:            Internes Flash
+T7958 000:070.893         BaseAddr:        0x00100000
+T7958 000:070.924         AlwaysPresent:   1
+T7958 000:070.929         LoaderInfo:
+T7958 000:070.934           Name:            Internes_Flash
+T7958 000:070.940           MaxSize:         0x00400000
+T7958 000:070.945           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K353ME\Z20K353ME_3MB_MainFlash0.elf
+T7958 000:070.951           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:070.956       FlashBankInfo:
+T7958 000:070.961         Name:            Internes Flash
+T7958 000:070.966         BaseAddr:        0x00500000
+T7958 000:070.996         AlwaysPresent:   1
+T7958 000:071.002         LoaderInfo:
+T7958 000:071.007           Name:            Internes_Flash
+T7958 000:071.012           MaxSize:         0x00400000
+T7958 000:071.018           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K353ME\Z20K353ME_3MB_MainFlash1.elf
+T7958 000:071.023           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.028       FlashBankInfo:
+T7958 000:071.033         Name:            Internes Flash
+T7958 000:071.038         BaseAddr:        0x02000000
+T7958 000:071.075         AlwaysPresent:   1
+T7958 000:071.084         LoaderInfo:
+T7958 000:071.092           Name:            Internes_Flash
+T7958 000:071.097           MaxSize:         0x00040000
+T7958 000:071.103           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K353ME\Z20K3xxME_256KB_DataFlash.elf
+T7958 000:071.108           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.114       FlashBankInfo:
+T7958 000:071.119         Name:            Internes Flash
+T7958 000:071.124         BaseAddr:        0x04000000
+T7958 000:071.157         AlwaysPresent:   1
+T7958 000:071.162         LoaderInfo:
+T7958 000:071.167           Name:            Internes_Flash
+T7958 000:071.173           MaxSize:         0x00004000
+T7958 000:071.178           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K353ME\Z20K3xxME_16KB_IfrFlash.elf
+T7958 000:071.183           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.189       FlashBankInfo:
+T7958 000:071.194         Name:            Internes Flash
+T7958 000:071.200         BaseAddr:        0x04100000
+T7958 000:071.228         AlwaysPresent:   1
+T7958 000:071.234         LoaderInfo:
+T7958 000:071.239           Name:            Internes_Flash
+T7958 000:071.245           MaxSize:         0x00002000
+T7958 000:071.250           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K3xxME_8KB_BootloaderIfrFlash.elf
+T7958 000:071.256           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.263     Device entry created:  Z20K354ME
+T7958 000:071.267       ChipInfo:
+T7958 000:071.272         Vendor:          ZhiXin
+T7958 000:071.277         Name:            Z20K354ME
+T7958 000:071.283         Core:            JLINK_CORE_CORTEX_R5
+T7958 000:071.300         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K354ME.JLinkScript
+T7958 000:071.305         WorkRAMAddr:     0x30040000
+T7958 000:071.311         WorkRAMSize:     0x00040000
+T7958 000:071.316       FlashBankInfo:
+T7958 000:071.321         Name:            Internes Flash
+T7958 000:071.352         AlwaysPresent:   1
+T7958 000:071.358         LoaderInfo:
+T7958 000:071.363           Name:            Internes_Flash
+T7958 000:071.368           MaxSize:         0x00040000
+T7958 000:071.374           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K3xxME_256KB_BootloaderFlash.elf
+T7958 000:071.379           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.384       FlashBankInfo:
+T7958 000:071.390         Name:            Internes Flash
+T7958 000:071.395         BaseAddr:        0x00100000
+T7958 000:071.424         AlwaysPresent:   1
+T7958 000:071.430         LoaderInfo:
+T7958 000:071.435           Name:            Internes_Flash
+T7958 000:071.440           MaxSize:         0x00400000
+T7958 000:071.446           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K354ME_4MB_MainFlash0.elf
+T7958 000:071.451           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.456       FlashBankInfo:
+T7958 000:071.461         Name:            Internes Flash
+T7958 000:071.466         BaseAddr:        0x00500000
+T7958 000:071.493         AlwaysPresent:   1
+T7958 000:071.498         LoaderInfo:
+T7958 000:071.504           Name:            Internes_Flash
+T7958 000:071.509           MaxSize:         0x00400000
+T7958 000:071.514           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K354ME_4MB_MainFlash1.elf
+T7958 000:071.519           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.524       FlashBankInfo:
+T7958 000:071.529         Name:            Internes Flash
+T7958 000:071.535         BaseAddr:        0x02000000
+T7958 000:071.566         AlwaysPresent:   1
+T7958 000:071.571         LoaderInfo:
+T7958 000:071.577           Name:            Internes_Flash
+T7958 000:071.582           MaxSize:         0x00040000
+T7958 000:071.587           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K3xxME_256KB_DataFlash.elf
+T7958 000:071.592           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.597       FlashBankInfo:
+T7958 000:071.602         Name:            Internes Flash
+T7958 000:071.608         BaseAddr:        0x04000000
+T7958 000:071.641         AlwaysPresent:   1
+T7958 000:071.647         LoaderInfo:
+T7958 000:071.652           Name:            Internes_Flash
+T7958 000:071.657           MaxSize:         0x00004000
+T7958 000:071.663           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K3xxME_16KB_IfrFlash.elf
+T7958 000:071.668           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.673       FlashBankInfo:
+T7958 000:071.678         Name:            Internes Flash
+T7958 000:071.683         BaseAddr:        0x04100000
+T7958 000:071.709         AlwaysPresent:   1
+T7958 000:071.714         LoaderInfo:
+T7958 000:071.719           Name:            Internes_Flash
+T7958 000:071.724           MaxSize:         0x00002000
+T7958 000:071.730           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20K354ME\Z20K3xxME_8KB_BootloaderIfrFlash.elf
+T7958 000:071.735           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.743     Device entry created:  Z20M1343L
+T7958 000:071.747       ChipInfo:
+T7958 000:071.752         Vendor:          ZhiXin
+T7958 000:071.757         Name:            Z20M1343L
+T7958 000:071.763         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:071.778         Script:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20M1343L\Z20M1343L.JLinkScript
+T7958 000:071.784         WorkRAMAddr:     0x20000000
+T7958 000:071.789         WorkRAMSize:     0x00002000
+T7958 000:071.794       FlashBankInfo:
+T7958 000:071.799         Name:            Internes Flash
+T7958 000:071.827         AlwaysPresent:   1
+T7958 000:071.832         LoaderInfo:
+T7958 000:071.837           Name:            Internes_Flash
+T7958 000:071.843           MaxSize:         0x00010000
+T7958 000:071.848           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\ZhiXin\Z20M1343L\Z20M1343L_64KB_MainFlash.elf
+T7958 000:071.856           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.863     Device entry created:  SWM166x8
+T7958 000:071.867       ChipInfo:
+T7958 000:071.872         Vendor:          Synwit
+T7958 000:071.877         Name:            SWM166x8
+T7958 000:071.883         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:071.888         WorkRAMAddr:     0x20000000
+T7958 000:071.893         WorkRAMSize:     0x00001000
+T7958 000:071.898       FlashBankInfo:
+T7958 000:071.903         Name:            SWM166x8
+T7958 000:071.933         LoaderInfo:
+T7958 000:071.939           Name:            SWM166x8
+T7958 000:071.944           MaxSize:         0x00010000
+T7958 000:071.950           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM166x8.FLM
+T7958 000:071.955           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:071.991     Device entry created:  SWM181xB
+T7958 000:071.995       ChipInfo:
+T7958 000:072.001         Vendor:          Synwit
+T7958 000:072.006         Name:            SWM181xB
+T7958 000:072.011         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:072.016         WorkRAMAddr:     0x20000000
+T7958 000:072.022         WorkRAMSize:     0x00001000
+T7958 000:072.027       FlashBankInfo:
+T7958 000:072.032         Name:            SWM181xB
+T7958 000:072.063         LoaderInfo:
+T7958 000:072.069           Name:            SWM181xB
+T7958 000:072.074           MaxSize:         0x0001E000
+T7958 000:072.079           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM181xC.FLM
+T7958 000:072.085           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:072.095     Device entry created:  SWM181xC
+T7958 000:072.100       ChipInfo:
+T7958 000:072.108         Vendor:          Synwit
+T7958 000:072.114         Name:            SWM181xC
+T7958 000:072.121         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:072.128         WorkRAMAddr:     0x20000000
+T7958 000:072.136         WorkRAMSize:     0x00001000
+T7958 000:072.143       FlashBankInfo:
+T7958 000:072.150         Name:            SWM181xC
+T7958 000:072.195         LoaderInfo:
+T7958 000:072.203           Name:            SWM181xC
+T7958 000:072.210           MaxSize:         0x0003E000
+T7958 000:072.217           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM181xC.FLM
+T7958 000:072.224           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:072.235     Device entry created:  SWM190xB
+T7958 000:072.239       ChipInfo:
+T7958 000:072.244         Vendor:          Synwit
+T7958 000:072.249         Name:            SWM190xB
+T7958 000:072.254         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:072.260         WorkRAMAddr:     0x20000000
+T7958 000:072.265         WorkRAMSize:     0x00001000
+T7958 000:072.270       FlashBankInfo:
+T7958 000:072.275         Name:            SWM190xB
+T7958 000:072.306         LoaderInfo:
+T7958 000:072.311           Name:            SWM190xB
+T7958 000:072.317           MaxSize:         0x0001E000
+T7958 000:072.322           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM190xC.FLM
+T7958 000:072.328           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:072.336     Device entry created:  SWM201x6
+T7958 000:072.339       ChipInfo:
+T7958 000:072.344         Vendor:          Synwit
+T7958 000:072.350         Name:            SWM201x6
+T7958 000:072.355         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:072.360         WorkRAMAddr:     0x20000000
+T7958 000:072.365         WorkRAMSize:     0x00001000
+T7958 000:072.370       FlashBankInfo:
+T7958 000:072.375         Name:            SWM201x6
+T7958 000:072.404         LoaderInfo:
+T7958 000:072.409           Name:            SWM201x6
+T7958 000:072.414           MaxSize:         0x00008000
+T7958 000:072.420           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM201x6.FLM
+T7958 000:072.425           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:072.432     Device entry created:  SWM211x6
+T7958 000:072.438       ChipInfo:
+T7958 000:072.444         Vendor:          Synwit
+T7958 000:072.449         Name:            SWM211x6
+T7958 000:072.455         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:072.460         WorkRAMAddr:     0x20000000
+T7958 000:072.465         WorkRAMSize:     0x00001000
+T7958 000:072.470       FlashBankInfo:
+T7958 000:072.475         Name:            SWM211x6
+T7958 000:072.502         LoaderInfo:
+T7958 000:072.507           Name:            SWM211x6
+T7958 000:072.513           MaxSize:         0x00008000
+T7958 000:072.518           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM211x8.FLM
+T7958 000:072.523           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:072.531     Device entry created:  SWM211x8
+T7958 000:072.534       ChipInfo:
+T7958 000:072.539         Vendor:          Synwit
+T7958 000:072.544         Name:            SWM211x8
+T7958 000:072.550         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:072.555         WorkRAMAddr:     0x20000000
+T7958 000:072.560         WorkRAMSize:     0x00001000
+T7958 000:072.565       FlashBankInfo:
+T7958 000:072.570         Name:            SWM211x8
+T7958 000:072.595         LoaderInfo:
+T7958 000:072.601           Name:            SWM211x8
+T7958 000:072.606           MaxSize:         0x00010000
+T7958 000:072.611           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM211x8.FLM
+T7958 000:072.617           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:072.624     Device entry created:  SWM241xB
+T7958 000:072.627       ChipInfo:
+T7958 000:072.632         Vendor:          Synwit
+T7958 000:072.637         Name:            SWM241xB
+T7958 000:072.643         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:072.648         WorkRAMAddr:     0x20000000
+T7958 000:072.653         WorkRAMSize:     0x00001000
+T7958 000:072.658       FlashBankInfo:
+T7958 000:072.663         Name:            SWM241xB
+T7958 000:072.689         LoaderInfo:
+T7958 000:072.695           Name:            SWM241xB
+T7958 000:072.700           MaxSize:         0x00020000
+T7958 000:072.705           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM241xB.FLM
+T7958 000:072.710           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:072.717     Device entry created:  SWM260xB
+T7958 000:072.721       ChipInfo:
+T7958 000:072.726         Vendor:          Synwit
+T7958 000:072.731         Name:            SWM260xB
+T7958 000:072.736         Core:            JLINK_CORE_CORTEX_M0
+T7958 000:072.741         WorkRAMAddr:     0x20000000
+T7958 000:072.746         WorkRAMSize:     0x00001000
+T7958 000:072.752       FlashBankInfo:
+T7958 000:072.757         Name:            SWM260xB
+T7958 000:072.783         LoaderInfo:
+T7958 000:072.788           Name:            SWM260xB
+T7958 000:072.793           MaxSize:         0x00020000
+T7958 000:072.799           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM260xB.FLM
+T7958 000:072.804           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:072.811     Device entry created:  SWM320xC
+T7958 000:072.815       ChipInfo:
+T7958 000:072.820         Vendor:          Synwit
+T7958 000:072.825         Name:            SWM320xC
+T7958 000:072.831         Core:            JLINK_CORE_CORTEX_M4
+T7958 000:072.836         WorkRAMAddr:     0x20000000
+T7958 000:072.841         WorkRAMSize:     0x00002000
+T7958 000:072.846       FlashBankInfo:
+T7958 000:072.851         Name:            SWM320xC
+T7958 000:072.884         LoaderInfo:
+T7958 000:072.889           Name:            SWM320xC
+T7958 000:072.894           MaxSize:         0x00040000
+T7958 000:072.899           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM320xE.FLM
+T7958 000:072.905           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:072.911     Device entry created:  SWM320xE
+T7958 000:072.915       ChipInfo:
+T7958 000:072.920         Vendor:          Synwit
+T7958 000:072.925         Name:            SWM320xE
+T7958 000:072.932         Core:            JLINK_CORE_CORTEX_M4
+T7958 000:072.937         WorkRAMAddr:     0x20000000
+T7958 000:072.942         WorkRAMSize:     0x00002000
+T7958 000:072.947       FlashBankInfo:
+T7958 000:072.952         Name:            SWM320xE
+T7958 000:072.978         LoaderInfo:
+T7958 000:072.983           Name:            SWM320xE
+T7958 000:072.988           MaxSize:         0x00080000
+T7958 000:072.994           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM320xE.FLM
+T7958 000:072.999           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.006     Device entry created:  SWM341xE
+T7958 000:073.009       ChipInfo:
+T7958 000:073.014         Vendor:          Synwit
+T7958 000:073.020         Name:            SWM341xE
+T7958 000:073.026         Core:            JLINK_CORE_CORTEX_M33
+T7958 000:073.031         WorkRAMAddr:     0x20000000
+T7958 000:073.037         WorkRAMSize:     0x00002000
+T7958 000:073.042       FlashBankInfo:
+T7958 000:073.047         Name:            SWM341xE
+T7958 000:073.083         LoaderInfo:
+T7958 000:073.090           Name:            SWM341xE
+T7958 000:073.097           MaxSize:         0x00080000
+T7958 000:073.104           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM341xE.FLM
+T7958 000:073.111           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.118     Device entry modified: SWM341xE
+T7958 000:073.125       ChipInfo:
+T7958 000:073.133         WorkRAMSize:     0x00004000
+T7958 000:073.140       FlashBankInfo:
+T7958 000:073.146         Name:            QSPI Flash
+T7958 000:073.153         BaseAddr:        0x70000000
+T7958 000:073.199         LoaderInfo:
+T7958 000:073.207           Name:            QSPI_Flash
+T7958 000:073.214           MaxSize:         0x01000000
+T7958 000:073.222           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM341_SFC.FLM
+T7958 000:073.229           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.237     Device entry modified: SWM166x8
+T7958 000:073.243       FlashBankInfo:
+T7958 000:073.251         Name:            SWM166x8
+T7958 000:073.292         LoaderInfo:
+T7958 000:073.300           Name:            SWM166x8
+T7958 000:073.307           MaxSize:         0x00010000
+T7958 000:073.314           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM166x8.FLM
+T7958 000:073.321           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.330     Device entry modified: SWM181xB
+T7958 000:073.336       FlashBankInfo:
+T7958 000:073.343         Name:            SWM181xB
+T7958 000:073.392         LoaderInfo:
+T7958 000:073.399           Name:            SWM181xB
+T7958 000:073.406           MaxSize:         0x0001E000
+T7958 000:073.414           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM181xC.FLM
+T7958 000:073.422           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.432     Device entry modified: SWM181xC
+T7958 000:073.438       FlashBankInfo:
+T7958 000:073.446         Name:            SWM181xC
+T7958 000:073.492         LoaderInfo:
+T7958 000:073.500           Name:            SWM181xC
+T7958 000:073.507           MaxSize:         0x0003E000
+T7958 000:073.514           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM181xC.FLM
+T7958 000:073.520           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.527     Device entry modified: SWM190xB
+T7958 000:073.531       FlashBankInfo:
+T7958 000:073.537         Name:            SWM190xB
+T7958 000:073.567         LoaderInfo:
+T7958 000:073.572           Name:            SWM190xB
+T7958 000:073.578           MaxSize:         0x0001E000
+T7958 000:073.583           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM190xC.FLM
+T7958 000:073.589           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.596     Device entry modified: SWM201x6
+T7958 000:073.600       FlashBankInfo:
+T7958 000:073.605         Name:            SWM201x6
+T7958 000:073.644         LoaderInfo:
+T7958 000:073.654           Name:            SWM201x6
+T7958 000:073.659           MaxSize:         0x00008000
+T7958 000:073.664           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM201x6.FLM
+T7958 000:073.669           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.676     Device entry modified: SWM211x6
+T7958 000:073.680       FlashBankInfo:
+T7958 000:073.685         Name:            SWM211x6
+T7958 000:073.716         LoaderInfo:
+T7958 000:073.721           Name:            SWM211x6
+T7958 000:073.726           MaxSize:         0x00008000
+T7958 000:073.732           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM211x8.FLM
+T7958 000:073.737           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.744     Device entry modified: SWM211x8
+T7958 000:073.747       FlashBankInfo:
+T7958 000:073.753         Name:            SWM211x8
+T7958 000:073.779         LoaderInfo:
+T7958 000:073.785           Name:            SWM211x8
+T7958 000:073.790           MaxSize:         0x00010000
+T7958 000:073.795           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM211x8.FLM
+T7958 000:073.800           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.807     Device entry modified: SWM241xB
+T7958 000:073.811       FlashBankInfo:
+T7958 000:073.816         Name:            SWM241xB
+T7958 000:073.846         LoaderInfo:
+T7958 000:073.851           Name:            SWM241xB
+T7958 000:073.857           MaxSize:         0x00020000
+T7958 000:073.862           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM241xB.FLM
+T7958 000:073.867           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.874     Device entry modified: SWM260xB
+T7958 000:073.878       FlashBankInfo:
+T7958 000:073.883         Name:            SWM260xB
+T7958 000:073.910         LoaderInfo:
+T7958 000:073.915           Name:            SWM260xB
+T7958 000:073.921           MaxSize:         0x00020000
+T7958 000:073.926           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM260xB.FLM
+T7958 000:073.931           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:073.938     Device entry modified: SWM320xC
+T7958 000:073.943       FlashBankInfo:
+T7958 000:073.948         Name:            SWM320xC
+T7958 000:073.976         LoaderInfo:
+T7958 000:073.983           Name:            SWM320xC
+T7958 000:073.990           MaxSize:         0x00040000
+T7958 000:073.997           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM320xE.FLM
+T7958 000:074.002           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:074.009     Device entry modified: SWM320xE
+T7958 000:074.015       FlashBankInfo:
+T7958 000:074.023         Name:            SWM320xE
+T7958 000:074.064         LoaderInfo:
+T7958 000:074.071           Name:            SWM320xE
+T7958 000:074.079           MaxSize:         0x00080000
+T7958 000:074.087           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM320xE.FLM
+T7958 000:074.094           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:074.102     Device entry modified: SWM341xE
+T7958 000:074.109       ChipInfo:
+T7958 000:074.117         WorkRAMSize:     0x00002000
+T7958 000:074.123       FlashBankInfo:
+T7958 000:074.128         Name:            SWM341xE
+T7958 000:074.157         LoaderInfo:
+T7958 000:074.162           Name:            SWM341xE
+T7958 000:074.168           MaxSize:         0x00080000
+T7958 000:074.173           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM341xE.FLM
+T7958 000:074.178           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:074.184     Device entry modified: SWM341xE
+T7958 000:074.189       ChipInfo:
+T7958 000:074.194         WorkRAMSize:     0x00004000
+T7958 000:074.199       FlashBankInfo:
+T7958 000:074.204         Name:            QSPI Flash
+T7958 000:074.209         BaseAddr:        0x70000000
+T7958 000:074.237         LoaderInfo:
+T7958 000:074.242           Name:            QSPI_Flash
+T7958 000:074.247           MaxSize:         0x01000000
+T7958 000:074.255           Loader:          C:\Program Files\SEGGER\JLink_V794\Devices\Synwit\SWM341_SFC.FLM
+T7958 000:074.261           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T7958 000:082.013   Device "S32K144H" selected.
+T7958 000:082.355 - 50.124ms returns 0x00
+T7958 000:087.059 JLINK_ExecCommand("Device = S32K144HFxxxLLx", ...). 
+T7958 000:092.213   Device "S32K144H" selected.
+T7958 000:092.590 - 5.503ms returns 0x00
+T7958 000:092.608 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T7958 000:092.623   ERROR: Unknown command
+T7958 000:092.628 - 0.014ms returns 0x01
+T7958 000:092.634 JLINK_GetHardwareVersion()
+T7958 000:092.640 - 0.004ms returns 91000
+T7958 000:092.644 JLINK_GetDLLVersion()
+T7958 000:092.648 - 0.003ms returns 86200
+T7958 000:092.652 JLINK_GetOEMString(...)
+T7958 000:092.656 JLINK_GetFirmwareString(...)
+T7958 000:092.661 - 0.004ms 
+T7958 000:110.849 JLINK_GetDLLVersion()
+T7958 000:110.876 - 0.026ms returns 86200
+T7958 000:110.881 JLINK_GetCompileDateTime()
+T7958 000:110.885 - 0.003ms 
+T7958 000:120.271 JLINK_GetFirmwareString(...)
+T7958 000:120.299 - 0.027ms 
+T7958 000:131.523 JLINK_GetHardwareVersion()
+T7958 000:131.547 - 0.023ms returns 91000
+T7958 000:138.857 JLINK_GetSN()
+T7958 000:138.882 - 0.024ms returns 20180904
+T7958 000:146.201 JLINK_GetOEMString(...)
+T7958 000:157.854 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T7958 000:158.885 - 1.035ms returns 0x00
+T7958 000:158.915 JLINK_HasError()
+T7958 000:158.936 JLINK_SetSpeed(5000)
+T7958 000:159.186 - 0.252ms 
+T7958 000:159.197 JLINK_GetId()
+T7958 000:164.874   ConfigTargetSettings() start
+T7958 000:164.905    J-Link Script File: Executing ConfigTargetSettings()
+T7958 000:170.084   ConfigTargetSettings() end - Took 20us
+T7958 000:178.244   InitTarget() start
+T7958 000:178.273    J-Link Script File: Executing InitTarget()
+T7958 000:183.237   SWD selected. Executing JTAG -> SWD switching sequence.
+T7958 000:242.805   InitTarget() end - Took 59.0ms
+T7958 000:250.836   Found SW-DP with ID 0x2BA01477
+T7958 000:259.668   DPIDR: 0x2BA01477
+T7958 000:267.628   CoreSight SoC-400 or earlier
+T7958 000:275.638   Scanning AP map to find all available APs
+T7958 000:282.818   AP[2]: Stopped AP scan as end of AP map has been reached
+T7958 000:289.741   AP[0]: AHB-AP (IDR: 0x24770011, ADDR: 0x00000000)
+T7958 000:295.829   AP[1]: JTAG-AP (IDR: 0x001C0000, ADDR: 0x01000000)
+T7958 000:301.185   Iterating through AP map to find AHB-AP to use
+T7958 000:307.508   AP[0]: Core found
+T7958 000:312.504   AP[0]: AHB-AP ROM base: 0xE00FF000
+T7958 000:318.682   CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+T7958 000:325.255   Found Cortex-M4 r0p1, Little endian.
+T7958 000:325.862   -- Max. mem block: 0x00010C20
+T7958 000:326.488   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T7958 000:326.893   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T7958 000:327.302   CPU_ReadMem(4 bytes @ 0xE0002000)
+T7958 000:332.859   FPUnit: 6 code (BP) slots and 2 literal slots
+T7958 000:332.893   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T7958 000:333.298   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T7958 000:333.732   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 000:334.149   CPU_WriteMem(4 bytes @ 0xE0001000)
+T7958 000:334.596   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T7958 000:334.989   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T7958 000:335.418   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T7958 000:335.782   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T7958 000:340.846   CoreSight components:
+T7958 000:348.774   ROMTbl[0] @ E00FF000
+T7958 000:348.814   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T7958 000:349.501   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T7958 000:356.104   [0][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+T7958 000:356.141   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T7958 000:361.708   [0][1]: E0001000 CID B105E00D PID 003BB002 DWT
+T7958 000:361.737   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T7958 000:368.278   [0][2]: E0002000 CID B105E00D PID 002BB003 FPB
+T7958 000:368.310   CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T7958 000:374.414   [0][3]: E0000000 CID B105E00D PID 003BB001 ITM
+T7958 000:374.459   CPU_ReadMem(32 bytes @ 0xE0040FE0)
+T7958 000:382.518   [0][4]: E0040000 CID B105900D PID 000BB9A1 TPIU
+T7958 000:390.077   Initializing 61440 bytes work RAM @ 0x1FFF8000
+T7958 000:390.131   JLINK_GetResetTypeDesc
+T7958 000:390.136   - 0.005ms 
+T7958 000:395.984   Reset type: NORMAL (https://wiki.segger.com/J-Link_Reset_Strategies)
+T7958 000:396.026   CPU is running
+T7958 000:396.040   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T7958 000:396.491   CPU is running
+T7958 000:396.511   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T7958 000:404.425   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T7958 000:413.979   Reset: Reset device via AIRCR.SYSRESETREQ.
+T7958 000:414.009   CPU is running
+T7958 000:414.019   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T7958 000:467.339   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T7958 000:467.821   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T7958 000:470.418   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T7958 000:476.953   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T7958 000:479.560   CPU_WriteMem(4 bytes @ 0xE0002000)
+T7958 000:479.982   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T7958 000:480.365   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 000:480.793   CPU_WriteMem(61440 bytes @ 0x1FFF8000)
+T7958 000:663.723 - 504.524ms returns 0x2BA01477
+T7958 000:663.757 JLINK_GetDLLVersion()
+T7958 000:663.762 - 0.004ms returns 86200
+T7958 000:663.766 JLINK_CORE_GetFound()
+T7958 000:663.771 - 0.004ms returns 0xE0000FF
+T7958 000:663.776 JLINK_GetDebugInfo(0x100 = JLINKARM_ROM_TABLE_ADDR_INDEX)
+T7958 000:663.780   Value=0xE00FF000
+T7958 000:663.786 - 0.010ms returns 0
+T7958 000:674.241 JLINK_GetDebugInfo(0x100 = JLINKARM_ROM_TABLE_ADDR_INDEX)
+T7958 000:674.268   Value=0xE00FF000
+T7958 000:674.274 - 0.033ms returns 0
+T7958 000:674.279 JLINK_GetDebugInfo(0x101 = JLINKARM_DEBUG_INFO_ETM_ADDR_INDEX)
+T7958 000:674.283   Value=0x00000000
+T7958 000:674.288 - 0.009ms returns 0
+T7958 000:674.293 JLINK_ReadMemEx(0xE0041FF0, 0x10 Bytes, Flags = 0x02000004)
+T7958 000:674.309   CPU_ReadMem(16 bytes @ 0xE0041FF0)
+T7958 000:674.836   Data:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T7958 000:674.854 - 0.561ms returns 16 (0x10)
+T7958 000:674.862 JLINK_GetDebugInfo(0x102 = JLINKARM_DEBUG_INFO_MTB_ADDR_INDEX)
+T7958 000:674.866   Value=0x00000000
+T7958 000:674.871 - 0.009ms returns 0
+T7958 000:674.876 JLINK_GetDebugInfo(0x103 = JLINKARM_DEBUG_INFO_TPIU_ADDR_INDEX)
+T7958 000:674.879   Value=0xE0040000
+T7958 000:674.884 - 0.008ms returns 0
+T7958 000:674.889 JLINK_GetDebugInfo(0x104 = JLINKARM_DEBUG_INFO_ITM_ADDR_INDEX)
+T7958 000:674.893   Value=0xE0000000
+T7958 000:674.898 - 0.009ms returns 0
+T7958 000:674.903 JLINK_GetDebugInfo(0x105 = JLINKARM_DEBUG_INFO_DWT_ADDR_INDEX)
+T7958 000:674.906   Value=0xE0001000
+T7958 000:674.911 - 0.009ms returns 0
+T7958 000:674.916 JLINK_GetDebugInfo(0x106 = JLINKARM_DEBUG_INFO_FPB_ADDR_INDEX)
+T7958 000:674.919   Value=0xE0002000
+T7958 000:674.924 - 0.008ms returns 0
+T7958 000:674.929 JLINK_GetDebugInfo(0x107 = JLINKARM_DEBUG_INFO_NVIC_ADDR_INDEX)
+T7958 000:674.932   Value=0xE000E000
+T7958 000:674.937 - 0.008ms returns 0
+T7958 000:674.976 JLINK_GetDebugInfo(0x10C = JLINKARM_DEBUG_INFO_DBG_ADDR_INDEX)
+T7958 000:674.992   Value=0xE000EDF0
+T7958 000:675.000 - 0.025ms returns 0
+T7958 000:675.006 JLINK_GetDebugInfo(0x01 = Unknown)
+T7958 000:675.011   Value=0x00000001
+T7958 000:675.018 - 0.011ms returns 0
+T7958 000:675.024 JLINK_ReadMemU32(0xE000ED00, 0x1 Items)
+T7958 000:675.035   CPU_ReadMem(4 bytes @ 0xE000ED00)
+T7958 000:675.424   Data:  41 C2 0F 41
+T7958 000:675.438   Debug reg: CPUID
+T7958 000:675.444 - 0.420ms returns 1 (0x1)
+T7958 000:675.451 JLINK_GetDebugInfo(0x10F = JLINKARM_DEBUG_INFO_HAS_CORTEX_M_SECURITY_EXT_INDEX)
+T7958 000:675.455   Value=0x00000000
+T7958 000:675.460 - 0.009ms returns 0
+T7958 000:675.465 JLINK_HasError()
+T7958 000:675.470 JLINK_SetResetType(JLINKARM_CM3_RESET_TYPE_NORMAL)
+T7958 000:675.474 - 0.004ms returns JLINKARM_CM3_RESET_TYPE_NORMAL
+T7958 000:675.478 JLINK_Reset()
+T7958 000:675.486   JLINK_GetResetTypeDesc
+T7958 000:675.495   - 0.009ms 
+T7958 000:679.905   Reset type: NORMAL (https://wiki.segger.com/J-Link_Reset_Strategies)
+T7958 000:679.931   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T7958 000:680.474   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T7958 000:686.434   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T7958 000:693.720   Reset: Reset device via AIRCR.SYSRESETREQ.
+T7958 000:693.755   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T7958 000:747.778   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T7958 000:748.186   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T7958 000:748.603   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T7958 000:755.268   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T7958 000:757.844   CPU_WriteMem(4 bytes @ 0xE0002000)
+T7958 000:758.298   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T7958 000:758.696   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 000:759.163 - 83.684ms 
+T7958 000:759.180 JLINK_Halt()
+T7958 000:759.184 - 0.004ms returns 0x00
+T7958 000:759.191 JLINK_ReadMemU32(0xE000EDF0, 0x1 Items)
+T7958 000:759.201   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T7958 000:759.565   Data:  03 00 03 00
+T7958 000:759.571   Debug reg: DHCSR
+T7958 000:759.577 - 0.385ms returns 1 (0x1)
+T7958 000:760.709 JLINK_WriteU32(0xE000EDF0, 0xA05F0003)
+T7958 000:760.718   Debug reg: DHCSR
+T7958 000:761.119   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T7958 000:761.519 - 1.194ms returns 0 (0x00000000)
+T7958 000:761.533 JLINK_WriteU32(0xE000EDFC, 0x01000000)
+T7958 000:761.538   Debug reg: DEMCR
+T7958 000:761.549   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T7958 000:761.985 - 0.450ms returns 0 (0x00000000)
+T7958 000:787.129 JLINK_GetHWStatus(...)
+T7958 000:787.512 - 0.383ms returns 0
+T7958 000:805.404 JLINK_GetNumBPUnits(Type = 0xFFFFFF00)
+T7958 000:805.433 - 0.028ms returns 0x06
+T7958 000:805.438 JLINK_GetNumBPUnits(Type = 0xF0)
+T7958 000:805.442 - 0.004ms returns 0x2000
+T7958 000:805.446 JLINK_GetNumWPUnits()
+T7958 000:805.449 - 0.003ms returns 4
+T7958 000:826.596 JLINK_GetSpeed()
+T7958 000:826.618 - 0.021ms returns 4000
+T7958 000:846.071 JLINK_ReadMemU32(0xE000E004, 0x1 Items)
+T7958 000:846.109   CPU_ReadMem(4 bytes @ 0xE000E004)
+T7958 000:846.523   Data:  04 00 00 00
+T7958 000:846.534 - 0.464ms returns 1 (0x1)
+T7958 000:846.541 JLINK_ReadMemU32(0xE000E004, 0x1 Items)
+T7958 000:846.548   CPU_ReadMem(4 bytes @ 0xE000E004)
+T7958 000:847.021   Data:  04 00 00 00
+T7958 000:847.048 - 0.506ms returns 1 (0x1)
+T7958 000:847.056 JLINK_WriteMemEx(0xE0001000, 0x0000001C Bytes, Flags = 0x02000004)
+T7958 000:847.060   Data:  01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ...
+T7958 000:847.073   CPU_WriteMem(28 bytes @ 0xE0001000)
+T7958 000:847.568 - 0.511ms returns 0x1C
+T7958 000:847.578 JLINK_Halt()
+T7958 000:847.583 - 0.004ms returns 0x00
+T7958 000:847.587 JLINK_IsHalted()
+T7958 000:847.591 - 0.004ms returns TRUE
+T7958 000:852.772 JLINK_WriteMem(0x20000000, 0x920 Bytes, ...)
+T7958 000:852.786   Data:  00 BE 0A E0 0D 78 2D 06 68 40 08 24 40 00 00 D3 ...
+T7958 000:853.055   CPU_WriteMem(2336 bytes @ 0x20000000)
+T7958 000:860.751 - 7.977ms returns 0x920
+T7958 000:860.807 JLINK_HasError()
+T7958 000:860.814 JLINK_WriteReg(R0, 0x00000000)
+T7958 000:860.822 - 0.008ms returns 0
+T7958 000:860.826 JLINK_WriteReg(R1, 0x00B71B00)
+T7958 000:860.830 - 0.003ms returns 0
+T7958 000:860.834 JLINK_WriteReg(R2, 0x00000001)
+T7958 000:860.838 - 0.004ms returns 0
+T7958 000:860.842 JLINK_WriteReg(R3, 0x00000000)
+T7958 000:860.846 - 0.003ms returns 0
+T7958 000:860.850 JLINK_WriteReg(R4, 0x00000000)
+T7958 000:860.853 - 0.003ms returns 0
+T7958 000:860.857 JLINK_WriteReg(R5, 0x00000000)
+T7958 000:860.861 - 0.003ms returns 0
+T7958 000:860.865 JLINK_WriteReg(R6, 0x00000000)
+T7958 000:860.868 - 0.003ms returns 0
+T7958 000:860.872 JLINK_WriteReg(R7, 0x00000000)
+T7958 000:860.876 - 0.003ms returns 0
+T7958 000:860.888 JLINK_WriteReg(R8, 0x00000000)
+T7958 000:860.892 - 0.011ms returns 0
+T7958 000:860.896 JLINK_WriteReg(R9, 0x20000914)
+T7958 000:860.899 - 0.003ms returns 0
+T7958 000:860.903 JLINK_WriteReg(R10, 0x00000000)
+T7958 000:860.907 - 0.003ms returns 0
+T7958 000:860.911 JLINK_WriteReg(R11, 0x00000000)
+T7958 000:860.922 - 0.010ms returns 0
+T7958 000:860.926 JLINK_WriteReg(R12, 0x00000000)
+T7958 000:860.929 - 0.003ms returns 0
+T7958 000:860.933 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 000:860.938 - 0.004ms returns 0
+T7958 000:860.942 JLINK_WriteReg(R14, 0x20000001)
+T7958 000:860.945 - 0.003ms returns 0
+T7958 000:860.949 JLINK_WriteReg(R15 (PC), 0x20000020)
+T7958 000:860.953 - 0.003ms returns 0
+T7958 000:860.957 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 000:860.961 - 0.003ms returns 0
+T7958 000:860.965 JLINK_WriteReg(MSP, 0x20001000)
+T7958 000:860.968 - 0.003ms returns 0
+T7958 000:860.972 JLINK_WriteReg(PSP, 0x20001000)
+T7958 000:860.976 - 0.003ms returns 0
+T7958 000:860.980 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 000:860.983 - 0.003ms returns 0
+T7958 000:860.988 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 000:860.997   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 000:861.444 - 0.455ms returns 0x00000001
+T7958 000:861.465 JLINK_Go()
+T7958 000:861.479   CPU_WriteMem(2 bytes @ 0x20000000)
+T7958 000:861.911   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 000:862.299   CPU_WriteMem(4 bytes @ 0xE0002008)
+T7958 000:862.307   CPU_WriteMem(4 bytes @ 0xE000200C)
+T7958 000:862.313   CPU_WriteMem(4 bytes @ 0xE0002010)
+T7958 000:862.318   CPU_WriteMem(4 bytes @ 0xE0002014)
+T7958 000:862.323   CPU_WriteMem(4 bytes @ 0xE0002018)
+T7958 000:862.328   CPU_WriteMem(4 bytes @ 0xE000201C)
+T7958 000:863.530   CPU_WriteMem(4 bytes @ 0xE0001004)
+T7958 000:888.426   Memory map 'after startup completion point' is active
+T7958 000:888.458 - 26.992ms 
+T7958 000:888.473 JLINK_IsHalted()
+T7958 000:890.606   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 000:891.030 - 2.556ms returns TRUE
+T7958 000:891.050 JLINK_ReadReg(R15 (PC))
+T7958 000:891.057 - 0.006ms returns 0x20000000
+T7958 000:891.063 JLINK_ClrBPEx(BPHandle = 0x00000001)
+T7958 000:891.068 - 0.004ms returns 0x00
+T7958 000:891.074 JLINK_ReadReg(R0)
+T7958 000:891.078 - 0.003ms returns 0x00000000
+T7958 000:892.867 JLINK_HasError()
+T7958 000:892.885 JLINK_WriteReg(R0, 0x00000000)
+T7958 000:892.892 - 0.007ms returns 0
+T7958 000:892.897 JLINK_WriteReg(R1, 0x00001000)
+T7958 000:892.900 - 0.003ms returns 0
+T7958 000:892.904 JLINK_WriteReg(R2, 0x000000FF)
+T7958 000:892.908 - 0.003ms returns 0
+T7958 000:892.912 JLINK_WriteReg(R3, 0x00000000)
+T7958 000:892.916 - 0.003ms returns 0
+T7958 000:892.920 JLINK_WriteReg(R4, 0x00000000)
+T7958 000:892.924 - 0.004ms returns 0
+T7958 000:892.928 JLINK_WriteReg(R5, 0x00000000)
+T7958 000:892.931 - 0.003ms returns 0
+T7958 000:892.935 JLINK_WriteReg(R6, 0x00000000)
+T7958 000:892.939 - 0.003ms returns 0
+T7958 000:892.943 JLINK_WriteReg(R7, 0x00000000)
+T7958 000:892.947 - 0.003ms returns 0
+T7958 000:892.951 JLINK_WriteReg(R8, 0x00000000)
+T7958 000:892.954 - 0.003ms returns 0
+T7958 000:892.958 JLINK_WriteReg(R9, 0x20000914)
+T7958 000:892.962 - 0.003ms returns 0
+T7958 000:892.966 JLINK_WriteReg(R10, 0x00000000)
+T7958 000:892.969 - 0.003ms returns 0
+T7958 000:892.973 JLINK_WriteReg(R11, 0x00000000)
+T7958 000:892.977 - 0.003ms returns 0
+T7958 000:892.981 JLINK_WriteReg(R12, 0x00000000)
+T7958 000:892.984 - 0.003ms returns 0
+T7958 000:892.989 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 000:892.993 - 0.004ms returns 0
+T7958 000:892.997 JLINK_WriteReg(R14, 0x20000001)
+T7958 000:893.001 - 0.003ms returns 0
+T7958 000:893.005 JLINK_WriteReg(R15 (PC), 0x20000096)
+T7958 000:893.009 - 0.003ms returns 0
+T7958 000:893.013 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 000:893.016 - 0.003ms returns 0
+T7958 000:893.021 JLINK_WriteReg(MSP, 0x20001000)
+T7958 000:893.024 - 0.003ms returns 0
+T7958 000:893.028 JLINK_WriteReg(PSP, 0x20001000)
+T7958 000:893.032 - 0.003ms returns 0
+T7958 000:893.036 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 000:893.039 - 0.003ms returns 0
+T7958 000:893.044 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 000:893.049 - 0.005ms returns 0x00000002
+T7958 000:893.053 JLINK_Go()
+T7958 000:893.066   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 000:895.653 - 2.599ms 
+T7958 000:895.683 JLINK_IsHalted()
+T7958 000:897.877   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 000:898.261 - 2.577ms returns TRUE
+T7958 000:898.270 JLINK_ReadReg(R15 (PC))
+T7958 000:898.276 - 0.006ms returns 0x20000000
+T7958 000:898.281 JLINK_ClrBPEx(BPHandle = 0x00000002)
+T7958 000:898.285 - 0.004ms returns 0x00
+T7958 000:898.290 JLINK_ReadReg(R0)
+T7958 000:898.294 - 0.003ms returns 0x00000001
+T7958 000:898.299 JLINK_HasError()
+T7958 000:898.304 JLINK_WriteReg(R0, 0x00000000)
+T7958 000:898.309 - 0.004ms returns 0
+T7958 000:898.313 JLINK_WriteReg(R1, 0x00001000)
+T7958 000:898.316 - 0.003ms returns 0
+T7958 000:898.321 JLINK_WriteReg(R2, 0x000000FF)
+T7958 000:898.325 - 0.003ms returns 0
+T7958 000:898.329 JLINK_WriteReg(R3, 0x00000000)
+T7958 000:898.333 - 0.003ms returns 0
+T7958 000:898.337 JLINK_WriteReg(R4, 0x00000000)
+T7958 000:898.340 - 0.003ms returns 0
+T7958 000:898.344 JLINK_WriteReg(R5, 0x00000000)
+T7958 000:898.348 - 0.003ms returns 0
+T7958 000:898.352 JLINK_WriteReg(R6, 0x00000000)
+T7958 000:898.355 - 0.003ms returns 0
+T7958 000:898.359 JLINK_WriteReg(R7, 0x00000000)
+T7958 000:898.363 - 0.003ms returns 0
+T7958 000:898.367 JLINK_WriteReg(R8, 0x00000000)
+T7958 000:898.370 - 0.003ms returns 0
+T7958 000:898.375 JLINK_WriteReg(R9, 0x20000914)
+T7958 000:898.378 - 0.003ms returns 0
+T7958 000:898.382 JLINK_WriteReg(R10, 0x00000000)
+T7958 000:898.386 - 0.003ms returns 0
+T7958 000:898.390 JLINK_WriteReg(R11, 0x00000000)
+T7958 000:898.393 - 0.003ms returns 0
+T7958 000:898.398 JLINK_WriteReg(R12, 0x00000000)
+T7958 000:898.401 - 0.003ms returns 0
+T7958 000:898.405 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 000:898.409 - 0.003ms returns 0
+T7958 000:898.413 JLINK_WriteReg(R14, 0x20000001)
+T7958 000:898.417 - 0.003ms returns 0
+T7958 000:898.421 JLINK_WriteReg(R15 (PC), 0x200000DC)
+T7958 000:898.425 - 0.003ms returns 0
+T7958 000:898.429 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 000:898.432 - 0.003ms returns 0
+T7958 000:898.437 JLINK_WriteReg(MSP, 0x20001000)
+T7958 000:898.441 - 0.003ms returns 0
+T7958 000:898.445 JLINK_WriteReg(PSP, 0x20001000)
+T7958 000:898.449 - 0.003ms returns 0
+T7958 000:898.453 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 000:898.457 - 0.003ms returns 0
+T7958 000:898.461 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 000:898.466 - 0.004ms returns 0x00000003
+T7958 000:898.470 JLINK_Go()
+T7958 000:898.480   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 000:901.062 - 2.591ms 
+T7958 000:901.084 JLINK_IsHalted()
+T7958 000:901.496 - 0.412ms returns FALSE
+T7958 000:901.502 JLINK_HasError()
+T7958 000:942.036 JLINK_IsHalted()
+T7958 000:944.269   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 000:944.667 - 2.631ms returns TRUE
+T7958 000:944.680 JLINK_ReadReg(R15 (PC))
+T7958 000:944.687 - 0.006ms returns 0x20000000
+T7958 000:944.694 JLINK_ClrBPEx(BPHandle = 0x00000003)
+T7958 000:944.699 - 0.004ms returns 0x00
+T7958 000:944.738 JLINK_ReadReg(R0)
+T7958 000:944.743 - 0.004ms returns 0x00000000
+T7958 000:945.160 JLINK_HasError()
+T7958 000:945.173 JLINK_WriteReg(R0, 0x00000001)
+T7958 000:945.178 - 0.005ms returns 0
+T7958 000:945.183 JLINK_WriteReg(R1, 0x00001000)
+T7958 000:945.186 - 0.003ms returns 0
+T7958 000:945.191 JLINK_WriteReg(R2, 0x000000FF)
+T7958 000:945.194 - 0.003ms returns 0
+T7958 000:945.198 JLINK_WriteReg(R3, 0x00000000)
+T7958 000:945.202 - 0.003ms returns 0
+T7958 000:945.206 JLINK_WriteReg(R4, 0x00000000)
+T7958 000:945.209 - 0.003ms returns 0
+T7958 000:945.213 JLINK_WriteReg(R5, 0x00000000)
+T7958 000:945.217 - 0.003ms returns 0
+T7958 000:945.222 JLINK_WriteReg(R6, 0x00000000)
+T7958 000:945.225 - 0.003ms returns 0
+T7958 000:945.229 JLINK_WriteReg(R7, 0x00000000)
+T7958 000:945.233 - 0.003ms returns 0
+T7958 000:945.237 JLINK_WriteReg(R8, 0x00000000)
+T7958 000:945.240 - 0.003ms returns 0
+T7958 000:945.244 JLINK_WriteReg(R9, 0x20000914)
+T7958 000:945.248 - 0.003ms returns 0
+T7958 000:945.252 JLINK_WriteReg(R10, 0x00000000)
+T7958 000:945.256 - 0.003ms returns 0
+T7958 000:945.260 JLINK_WriteReg(R11, 0x00000000)
+T7958 000:945.264 - 0.003ms returns 0
+T7958 000:945.276 JLINK_WriteReg(R12, 0x00000000)
+T7958 000:945.280 - 0.003ms returns 0
+T7958 000:945.284 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 000:945.288 - 0.004ms returns 0
+T7958 000:945.292 JLINK_WriteReg(R14, 0x20000001)
+T7958 000:945.295 - 0.003ms returns 0
+T7958 000:945.299 JLINK_WriteReg(R15 (PC), 0x20000092)
+T7958 000:945.303 - 0.003ms returns 0
+T7958 000:945.307 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 000:945.311 - 0.003ms returns 0
+T7958 000:945.315 JLINK_WriteReg(MSP, 0x20001000)
+T7958 000:945.318 - 0.003ms returns 0
+T7958 000:945.322 JLINK_WriteReg(PSP, 0x20001000)
+T7958 000:945.326 - 0.004ms returns 0
+T7958 000:945.330 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 000:945.334 - 0.003ms returns 0
+T7958 000:945.339 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 000:945.343 - 0.005ms returns 0x00000004
+T7958 000:945.348 JLINK_Go()
+T7958 000:945.358   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 000:947.966 - 2.617ms 
+T7958 000:948.016 JLINK_IsHalted()
+T7958 000:950.217   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 000:950.650 - 2.633ms returns TRUE
+T7958 000:950.667 JLINK_ReadReg(R15 (PC))
+T7958 000:950.674 - 0.007ms returns 0x20000000
+T7958 000:950.679 JLINK_ClrBPEx(BPHandle = 0x00000004)
+T7958 000:950.683 - 0.004ms returns 0x00
+T7958 000:950.687 JLINK_ReadReg(R0)
+T7958 000:950.691 - 0.003ms returns 0x00000000
+T7958 001:020.001 JLINK_WriteMem(0x20000000, 0x920 Bytes, ...)
+T7958 001:020.015   Data:  00 BE 0A E0 0D 78 2D 06 68 40 08 24 40 00 00 D3 ...
+T7958 001:020.035   CPU_WriteMem(2336 bytes @ 0x20000000)
+T7958 001:027.796 - 7.794ms returns 0x920
+T7958 001:027.934 JLINK_HasError()
+T7958 001:027.952 JLINK_WriteReg(R0, 0x00000000)
+T7958 001:027.971 - 0.019ms returns 0
+T7958 001:027.978 JLINK_WriteReg(R1, 0x00B71B00)
+T7958 001:027.981 - 0.003ms returns 0
+T7958 001:027.986 JLINK_WriteReg(R2, 0x00000002)
+T7958 001:027.989 - 0.003ms returns 0
+T7958 001:027.993 JLINK_WriteReg(R3, 0x00000000)
+T7958 001:027.997 - 0.003ms returns 0
+T7958 001:028.001 JLINK_WriteReg(R4, 0x00000000)
+T7958 001:028.004 - 0.003ms returns 0
+T7958 001:028.008 JLINK_WriteReg(R5, 0x00000000)
+T7958 001:028.012 - 0.003ms returns 0
+T7958 001:028.016 JLINK_WriteReg(R6, 0x00000000)
+T7958 001:028.020 - 0.003ms returns 0
+T7958 001:028.026 JLINK_WriteReg(R7, 0x00000000)
+T7958 001:028.032 - 0.006ms returns 0
+T7958 001:028.037 JLINK_WriteReg(R8, 0x00000000)
+T7958 001:028.042 - 0.004ms returns 0
+T7958 001:028.047 JLINK_WriteReg(R9, 0x20000914)
+T7958 001:028.052 - 0.004ms returns 0
+T7958 001:028.057 JLINK_WriteReg(R10, 0x00000000)
+T7958 001:028.063 - 0.005ms returns 0
+T7958 001:028.068 JLINK_WriteReg(R11, 0x00000000)
+T7958 001:028.073 - 0.005ms returns 0
+T7958 001:028.079 JLINK_WriteReg(R12, 0x00000000)
+T7958 001:028.083 - 0.004ms returns 0
+T7958 001:028.088 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 001:028.092 - 0.004ms returns 0
+T7958 001:028.096 JLINK_WriteReg(R14, 0x20000001)
+T7958 001:028.100 - 0.003ms returns 0
+T7958 001:028.104 JLINK_WriteReg(R15 (PC), 0x20000020)
+T7958 001:028.107 - 0.003ms returns 0
+T7958 001:028.112 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 001:028.115 - 0.003ms returns 0
+T7958 001:028.119 JLINK_WriteReg(MSP, 0x20001000)
+T7958 001:028.123 - 0.003ms returns 0
+T7958 001:028.127 JLINK_WriteReg(PSP, 0x20001000)
+T7958 001:028.130 - 0.003ms returns 0
+T7958 001:028.134 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 001:028.138 - 0.003ms returns 0
+T7958 001:028.143 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 001:028.154   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 001:028.578 - 0.434ms returns 0x00000005
+T7958 001:028.600 JLINK_Go()
+T7958 001:028.609   CPU_WriteMem(2 bytes @ 0x20000000)
+T7958 001:029.016   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 001:031.603 - 3.002ms 
+T7958 001:031.639 JLINK_IsHalted()
+T7958 001:033.847   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 001:034.286 - 2.646ms returns TRUE
+T7958 001:034.309 JLINK_ReadReg(R15 (PC))
+T7958 001:034.318 - 0.009ms returns 0x20000000
+T7958 001:034.324 JLINK_ClrBPEx(BPHandle = 0x00000005)
+T7958 001:034.339 - 0.015ms returns 0x00
+T7958 001:034.350 JLINK_ReadReg(R0)
+T7958 001:034.355 - 0.005ms returns 0x00000000
+T7958 001:042.978 JLINK_WriteMem(0x20000950, 0x2B0 Bytes, ...)
+T7958 001:043.007   Data:  00 70 00 20 0D 05 00 00 29 05 00 00 2B 05 00 00 ...
+T7958 001:043.030   CPU_WriteMem(688 bytes @ 0x20000950)
+T7958 001:045.778 - 2.799ms returns 0x2B0
+T7958 001:045.797 JLINK_WriteMem(0x20000C00, 0x150 Bytes, ...)
+T7958 001:045.802   Data:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ...
+T7958 001:045.815   CPU_WriteMem(336 bytes @ 0x20000C00)
+T7958 001:047.457 - 1.659ms returns 0x150
+T7958 001:047.473 JLINK_HasError()
+T7958 001:047.479 JLINK_WriteReg(R0, 0x00000000)
+T7958 001:047.486 - 0.007ms returns 0
+T7958 001:047.491 JLINK_WriteReg(R1, 0x00000400)
+T7958 001:047.495 - 0.004ms returns 0
+T7958 001:047.499 JLINK_WriteReg(R2, 0x20000950)
+T7958 001:047.502 - 0.003ms returns 0
+T7958 001:047.506 JLINK_WriteReg(R3, 0x00000000)
+T7958 001:047.510 - 0.003ms returns 0
+T7958 001:047.514 JLINK_WriteReg(R4, 0x00000000)
+T7958 001:047.517 - 0.003ms returns 0
+T7958 001:047.521 JLINK_WriteReg(R5, 0x00000000)
+T7958 001:047.525 - 0.003ms returns 0
+T7958 001:047.529 JLINK_WriteReg(R6, 0x00000000)
+T7958 001:047.532 - 0.003ms returns 0
+T7958 001:047.536 JLINK_WriteReg(R7, 0x00000000)
+T7958 001:047.540 - 0.003ms returns 0
+T7958 001:047.544 JLINK_WriteReg(R8, 0x00000000)
+T7958 001:047.548 - 0.003ms returns 0
+T7958 001:047.552 JLINK_WriteReg(R9, 0x20000914)
+T7958 001:047.555 - 0.003ms returns 0
+T7958 001:047.559 JLINK_WriteReg(R10, 0x00000000)
+T7958 001:047.563 - 0.003ms returns 0
+T7958 001:047.567 JLINK_WriteReg(R11, 0x00000000)
+T7958 001:047.571 - 0.003ms returns 0
+T7958 001:047.575 JLINK_WriteReg(R12, 0x00000000)
+T7958 001:047.578 - 0.003ms returns 0
+T7958 001:047.582 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 001:047.587 - 0.004ms returns 0
+T7958 001:047.591 JLINK_WriteReg(R14, 0x20000001)
+T7958 001:047.594 - 0.003ms returns 0
+T7958 001:047.598 JLINK_WriteReg(R15 (PC), 0x200000F6)
+T7958 001:047.602 - 0.003ms returns 0
+T7958 001:047.606 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 001:047.610 - 0.003ms returns 0
+T7958 001:047.614 JLINK_WriteReg(MSP, 0x20001000)
+T7958 001:047.617 - 0.003ms returns 0
+T7958 001:047.621 JLINK_WriteReg(PSP, 0x20001000)
+T7958 001:047.625 - 0.003ms returns 0
+T7958 001:047.629 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 001:047.632 - 0.003ms returns 0
+T7958 001:047.637 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 001:047.641 - 0.004ms returns 0x00000006
+T7958 001:047.646 JLINK_Go()
+T7958 001:047.656   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 001:050.192 - 2.546ms 
+T7958 001:050.207 JLINK_IsHalted()
+T7958 001:050.553 - 0.345ms returns FALSE
+T7958 001:050.581 JLINK_HasError()
+T7958 001:066.059 JLINK_IsHalted()
+T7958 001:068.317   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 001:068.709 - 2.649ms returns TRUE
+T7958 001:068.718 JLINK_ReadReg(R15 (PC))
+T7958 001:068.725 - 0.006ms returns 0x20000000
+T7958 001:068.730 JLINK_ClrBPEx(BPHandle = 0x00000006)
+T7958 001:068.734 - 0.004ms returns 0x00
+T7958 001:068.739 JLINK_ReadReg(R0)
+T7958 001:068.742 - 0.003ms returns 0x00000000
+T7958 001:072.853 JLINK_WriteMem(0x20000950, 0x2B0 Bytes, ...)
+T7958 001:072.872   Data:  FF FF FF FF FF FF FF FF FF FF FF FF FE FF FF FF ...
+T7958 001:072.891   CPU_WriteMem(688 bytes @ 0x20000950)
+T7958 001:075.611 - 2.757ms returns 0x2B0
+T7958 001:075.634 JLINK_WriteMem(0x20000C00, 0x150 Bytes, ...)
+T7958 001:075.639   Data:  0E E0 40 F2 C0 40 C0 F2 00 00 00 68 9D F8 0F 20 ...
+T7958 001:075.654   CPU_WriteMem(336 bytes @ 0x20000C00)
+T7958 001:077.398 - 1.763ms returns 0x150
+T7958 001:077.420 JLINK_HasError()
+T7958 001:077.426 JLINK_WriteReg(R0, 0x00000400)
+T7958 001:077.433 - 0.007ms returns 0
+T7958 001:077.438 JLINK_WriteReg(R1, 0x00000308)
+T7958 001:077.441 - 0.003ms returns 0
+T7958 001:077.446 JLINK_WriteReg(R2, 0x20000950)
+T7958 001:077.449 - 0.003ms returns 0
+T7958 001:077.454 JLINK_WriteReg(R3, 0x00000000)
+T7958 001:077.457 - 0.003ms returns 0
+T7958 001:077.502 JLINK_WriteReg(R4, 0x00000000)
+T7958 001:077.508 - 0.006ms returns 0
+T7958 001:077.512 JLINK_WriteReg(R5, 0x00000000)
+T7958 001:077.516 - 0.003ms returns 0
+T7958 001:077.520 JLINK_WriteReg(R6, 0x00000000)
+T7958 001:077.524 - 0.003ms returns 0
+T7958 001:077.541 JLINK_WriteReg(R7, 0x00000000)
+T7958 001:077.545 - 0.003ms returns 0
+T7958 001:077.549 JLINK_WriteReg(R8, 0x00000000)
+T7958 001:077.552 - 0.003ms returns 0
+T7958 001:077.556 JLINK_WriteReg(R9, 0x20000914)
+T7958 001:077.560 - 0.004ms returns 0
+T7958 001:077.564 JLINK_WriteReg(R10, 0x00000000)
+T7958 001:077.568 - 0.003ms returns 0
+T7958 001:077.572 JLINK_WriteReg(R11, 0x00000000)
+T7958 001:077.576 - 0.003ms returns 0
+T7958 001:077.580 JLINK_WriteReg(R12, 0x00000000)
+T7958 001:077.583 - 0.003ms returns 0
+T7958 001:077.588 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 001:077.625 - 0.036ms returns 0
+T7958 001:077.631 JLINK_WriteReg(R14, 0x20000001)
+T7958 001:077.635 - 0.004ms returns 0
+T7958 001:077.639 JLINK_WriteReg(R15 (PC), 0x200000F6)
+T7958 001:077.643 - 0.003ms returns 0
+T7958 001:077.647 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 001:077.651 - 0.003ms returns 0
+T7958 001:077.655 JLINK_WriteReg(MSP, 0x20001000)
+T7958 001:077.659 - 0.003ms returns 0
+T7958 001:077.663 JLINK_WriteReg(PSP, 0x20001000)
+T7958 001:077.666 - 0.003ms returns 0
+T7958 001:077.670 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 001:077.674 - 0.003ms returns 0
+T7958 001:077.679 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 001:077.684 - 0.005ms returns 0x00000007
+T7958 001:077.689 JLINK_Go()
+T7958 001:077.702   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 001:080.281 - 2.591ms 
+T7958 001:080.311 JLINK_IsHalted()
+T7958 001:080.691 - 0.379ms returns FALSE
+T7958 001:080.701 JLINK_HasError()
+T7958 001:082.643 JLINK_IsHalted()
+T7958 001:083.142 - 0.499ms returns FALSE
+T7958 001:083.160 JLINK_HasError()
+T7958 001:084.609 JLINK_IsHalted()
+T7958 001:085.039 - 0.429ms returns FALSE
+T7958 001:085.064 JLINK_HasError()
+T7958 001:086.586 JLINK_IsHalted()
+T7958 001:087.014 - 0.427ms returns FALSE
+T7958 001:087.024 JLINK_HasError()
+T7958 001:088.532 JLINK_IsHalted()
+T7958 001:090.658   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 001:091.071 - 2.538ms returns TRUE
+T7958 001:091.085 JLINK_ReadReg(R15 (PC))
+T7958 001:091.092 - 0.006ms returns 0x20000000
+T7958 001:091.096 JLINK_ClrBPEx(BPHandle = 0x00000007)
+T7958 001:091.101 - 0.004ms returns 0x00
+T7958 001:091.105 JLINK_ReadReg(R0)
+T7958 001:091.109 - 0.003ms returns 0x00000000
+T7958 001:091.114 JLINK_HasError()
+T7958 001:091.119 JLINK_WriteReg(R0, 0x00000002)
+T7958 001:091.123 - 0.004ms returns 0
+T7958 001:091.128 JLINK_WriteReg(R1, 0x00000308)
+T7958 001:091.132 - 0.003ms returns 0
+T7958 001:091.136 JLINK_WriteReg(R2, 0x20000950)
+T7958 001:091.139 - 0.003ms returns 0
+T7958 001:091.144 JLINK_WriteReg(R3, 0x00000000)
+T7958 001:091.147 - 0.003ms returns 0
+T7958 001:091.151 JLINK_WriteReg(R4, 0x00000000)
+T7958 001:091.154 - 0.003ms returns 0
+T7958 001:091.158 JLINK_WriteReg(R5, 0x00000000)
+T7958 001:091.162 - 0.003ms returns 0
+T7958 001:091.166 JLINK_WriteReg(R6, 0x00000000)
+T7958 001:091.170 - 0.003ms returns 0
+T7958 001:091.174 JLINK_WriteReg(R7, 0x00000000)
+T7958 001:091.177 - 0.003ms returns 0
+T7958 001:091.181 JLINK_WriteReg(R8, 0x00000000)
+T7958 001:091.185 - 0.003ms returns 0
+T7958 001:091.189 JLINK_WriteReg(R9, 0x20000914)
+T7958 001:091.192 - 0.003ms returns 0
+T7958 001:091.196 JLINK_WriteReg(R10, 0x00000000)
+T7958 001:091.200 - 0.003ms returns 0
+T7958 001:091.204 JLINK_WriteReg(R11, 0x00000000)
+T7958 001:091.207 - 0.003ms returns 0
+T7958 001:091.211 JLINK_WriteReg(R12, 0x00000000)
+T7958 001:091.215 - 0.003ms returns 0
+T7958 001:091.219 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 001:091.223 - 0.004ms returns 0
+T7958 001:091.227 JLINK_WriteReg(R14, 0x20000001)
+T7958 001:091.230 - 0.003ms returns 0
+T7958 001:091.234 JLINK_WriteReg(R15 (PC), 0x20000092)
+T7958 001:091.238 - 0.004ms returns 0
+T7958 001:091.243 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 001:091.246 - 0.003ms returns 0
+T7958 001:091.258 JLINK_WriteReg(MSP, 0x20001000)
+T7958 001:091.261 - 0.003ms returns 0
+T7958 001:091.266 JLINK_WriteReg(PSP, 0x20001000)
+T7958 001:091.269 - 0.003ms returns 0
+T7958 001:091.273 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 001:091.277 - 0.003ms returns 0
+T7958 001:091.281 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 001:091.285 - 0.004ms returns 0x00000008
+T7958 001:091.289 JLINK_Go()
+T7958 001:091.299   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 001:093.871 - 2.581ms 
+T7958 001:093.889 JLINK_IsHalted()
+T7958 001:096.137   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 001:096.605 - 2.714ms returns TRUE
+T7958 001:096.628 JLINK_ReadReg(R15 (PC))
+T7958 001:096.643 - 0.015ms returns 0x20000000
+T7958 001:096.652 JLINK_ClrBPEx(BPHandle = 0x00000008)
+T7958 001:096.657 - 0.004ms returns 0x00
+T7958 001:096.663 JLINK_ReadReg(R0)
+T7958 001:096.668 - 0.005ms returns 0x00000000
+T7958 001:161.044 JLINK_WriteMem(0x20000000, 0x920 Bytes, ...)
+T7958 001:161.058   Data:  00 BE 0A E0 0D 78 2D 06 68 40 08 24 40 00 00 D3 ...
+T7958 001:161.078   CPU_WriteMem(2336 bytes @ 0x20000000)
+T7958 001:168.778 - 7.734ms returns 0x920
+T7958 001:168.843 JLINK_HasError()
+T7958 001:168.852 JLINK_WriteReg(R0, 0x00000000)
+T7958 001:168.860 - 0.008ms returns 0
+T7958 001:168.865 JLINK_WriteReg(R1, 0x00B71B00)
+T7958 001:168.868 - 0.003ms returns 0
+T7958 001:168.872 JLINK_WriteReg(R2, 0x00000003)
+T7958 001:168.876 - 0.003ms returns 0
+T7958 001:168.881 JLINK_WriteReg(R3, 0x00000000)
+T7958 001:168.885 - 0.004ms returns 0
+T7958 001:168.889 JLINK_WriteReg(R4, 0x00000000)
+T7958 001:168.893 - 0.003ms returns 0
+T7958 001:168.897 JLINK_WriteReg(R5, 0x00000000)
+T7958 001:168.902 - 0.004ms returns 0
+T7958 001:168.907 JLINK_WriteReg(R6, 0x00000000)
+T7958 001:168.912 - 0.004ms returns 0
+T7958 001:168.917 JLINK_WriteReg(R7, 0x00000000)
+T7958 001:168.922 - 0.004ms returns 0
+T7958 001:168.928 JLINK_WriteReg(R8, 0x00000000)
+T7958 001:168.933 - 0.005ms returns 0
+T7958 001:168.939 JLINK_WriteReg(R9, 0x20000914)
+T7958 001:168.944 - 0.005ms returns 0
+T7958 001:168.949 JLINK_WriteReg(R10, 0x00000000)
+T7958 001:168.953 - 0.003ms returns 0
+T7958 001:168.958 JLINK_WriteReg(R11, 0x00000000)
+T7958 001:168.961 - 0.003ms returns 0
+T7958 001:168.965 JLINK_WriteReg(R12, 0x00000000)
+T7958 001:168.969 - 0.003ms returns 0
+T7958 001:168.973 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 001:168.977 - 0.004ms returns 0
+T7958 001:168.981 JLINK_WriteReg(R14, 0x20000001)
+T7958 001:168.984 - 0.003ms returns 0
+T7958 001:168.989 JLINK_WriteReg(R15 (PC), 0x20000020)
+T7958 001:168.993 - 0.004ms returns 0
+T7958 001:168.997 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 001:169.000 - 0.003ms returns 0
+T7958 001:169.005 JLINK_WriteReg(MSP, 0x20001000)
+T7958 001:169.008 - 0.003ms returns 0
+T7958 001:169.012 JLINK_WriteReg(PSP, 0x20001000)
+T7958 001:169.016 - 0.003ms returns 0
+T7958 001:169.020 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 001:169.023 - 0.003ms returns 0
+T7958 001:169.028 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 001:169.039   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 001:169.443 - 0.414ms returns 0x00000009
+T7958 001:169.450 JLINK_Go()
+T7958 001:169.456   CPU_WriteMem(2 bytes @ 0x20000000)
+T7958 001:169.838   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 001:172.304 - 2.853ms 
+T7958 001:172.316 JLINK_IsHalted()
+T7958 001:174.442   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 001:174.858 - 2.541ms returns TRUE
+T7958 001:174.874 JLINK_ReadReg(R15 (PC))
+T7958 001:174.881 - 0.007ms returns 0x20000000
+T7958 001:174.886 JLINK_ClrBPEx(BPHandle = 0x00000009)
+T7958 001:174.890 - 0.004ms returns 0x00
+T7958 001:174.895 JLINK_ReadReg(R0)
+T7958 001:174.900 - 0.004ms returns 0x00000000
+T7958 001:174.905 JLINK_HasError()
+T7958 001:174.910 JLINK_WriteReg(R0, 0xFFFFFFFF)
+T7958 001:174.914 - 0.004ms returns 0
+T7958 001:174.918 JLINK_WriteReg(R1, 0x00000000)
+T7958 001:174.922 - 0.003ms returns 0
+T7958 001:174.926 JLINK_WriteReg(R2, 0x00000708)
+T7958 001:174.930 - 0.003ms returns 0
+T7958 001:174.934 JLINK_WriteReg(R3, 0x04C11DB7)
+T7958 001:174.942 - 0.008ms returns 0
+T7958 001:174.949 JLINK_WriteReg(R4, 0x00000000)
+T7958 001:174.952 - 0.003ms returns 0
+T7958 001:174.957 JLINK_WriteReg(R5, 0x00000000)
+T7958 001:174.960 - 0.003ms returns 0
+T7958 001:174.964 JLINK_WriteReg(R6, 0x00000000)
+T7958 001:174.968 - 0.003ms returns 0
+T7958 001:174.972 JLINK_WriteReg(R7, 0x00000000)
+T7958 001:174.975 - 0.003ms returns 0
+T7958 001:174.979 JLINK_WriteReg(R8, 0x00000000)
+T7958 001:174.983 - 0.003ms returns 0
+T7958 001:174.987 JLINK_WriteReg(R9, 0x20000914)
+T7958 001:174.991 - 0.003ms returns 0
+T7958 001:174.995 JLINK_WriteReg(R10, 0x00000000)
+T7958 001:174.998 - 0.003ms returns 0
+T7958 001:175.003 JLINK_WriteReg(R11, 0x00000000)
+T7958 001:175.006 - 0.003ms returns 0
+T7958 001:175.010 JLINK_WriteReg(R12, 0x00000000)
+T7958 001:175.014 - 0.003ms returns 0
+T7958 001:175.018 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 001:175.022 - 0.003ms returns 0
+T7958 001:175.026 JLINK_WriteReg(R14, 0x20000001)
+T7958 001:175.029 - 0.003ms returns 0
+T7958 001:175.033 JLINK_WriteReg(R15 (PC), 0x20000002)
+T7958 001:175.037 - 0.003ms returns 0
+T7958 001:175.041 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 001:175.045 - 0.003ms returns 0
+T7958 001:175.049 JLINK_WriteReg(MSP, 0x20001000)
+T7958 001:175.052 - 0.003ms returns 0
+T7958 001:175.057 JLINK_WriteReg(PSP, 0x20001000)
+T7958 001:175.060 - 0.003ms returns 0
+T7958 001:175.064 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 001:175.068 - 0.003ms returns 0
+T7958 001:175.072 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 001:175.077 - 0.004ms returns 0x0000000A
+T7958 001:175.081 JLINK_Go()
+T7958 001:175.091   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 001:177.556 - 2.468ms 
+T7958 001:177.587 JLINK_IsHalted()
+T7958 001:177.979 - 0.391ms returns FALSE
+T7958 001:177.995 JLINK_HasError()
+T7958 001:257.414 JLINK_IsHalted()
+T7958 001:259.829   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 001:260.213 - 2.799ms returns TRUE
+T7958 001:260.240 JLINK_ReadReg(R15 (PC))
+T7958 001:260.247 - 0.007ms returns 0x20000000
+T7958 001:260.254 JLINK_ClrBPEx(BPHandle = 0x0000000A)
+T7958 001:260.258 - 0.004ms returns 0x00
+T7958 001:260.297 JLINK_ReadReg(R0)
+T7958 001:260.301 - 0.004ms returns 0x2E38F930
+T7958 001:261.060 JLINK_HasError()
+T7958 001:261.077 JLINK_WriteReg(R0, 0x00000003)
+T7958 001:261.083 - 0.005ms returns 0
+T7958 001:261.087 JLINK_WriteReg(R1, 0x00000000)
+T7958 001:261.091 - 0.003ms returns 0
+T7958 001:261.095 JLINK_WriteReg(R2, 0x00000708)
+T7958 001:261.099 - 0.003ms returns 0
+T7958 001:261.103 JLINK_WriteReg(R3, 0x04C11DB7)
+T7958 001:261.106 - 0.003ms returns 0
+T7958 001:261.110 JLINK_WriteReg(R4, 0x00000000)
+T7958 001:261.114 - 0.003ms returns 0
+T7958 001:261.118 JLINK_WriteReg(R5, 0x00000000)
+T7958 001:261.122 - 0.003ms returns 0
+T7958 001:261.126 JLINK_WriteReg(R6, 0x00000000)
+T7958 001:261.130 - 0.003ms returns 0
+T7958 001:261.134 JLINK_WriteReg(R7, 0x00000000)
+T7958 001:261.137 - 0.003ms returns 0
+T7958 001:261.141 JLINK_WriteReg(R8, 0x00000000)
+T7958 001:261.145 - 0.003ms returns 0
+T7958 001:261.149 JLINK_WriteReg(R9, 0x20000914)
+T7958 001:261.152 - 0.003ms returns 0
+T7958 001:261.156 JLINK_WriteReg(R10, 0x00000000)
+T7958 001:261.160 - 0.003ms returns 0
+T7958 001:261.164 JLINK_WriteReg(R11, 0x00000000)
+T7958 001:261.167 - 0.003ms returns 0
+T7958 001:261.171 JLINK_WriteReg(R12, 0x00000000)
+T7958 001:261.175 - 0.003ms returns 0
+T7958 001:261.179 JLINK_WriteReg(R13 (SP), 0x20001000)
+T7958 001:261.183 - 0.004ms returns 0
+T7958 001:261.187 JLINK_WriteReg(R14, 0x20000001)
+T7958 001:261.191 - 0.003ms returns 0
+T7958 001:261.195 JLINK_WriteReg(R15 (PC), 0x20000092)
+T7958 001:261.199 - 0.003ms returns 0
+T7958 001:261.203 JLINK_WriteReg(XPSR, 0x01000000)
+T7958 001:261.206 - 0.003ms returns 0
+T7958 001:261.210 JLINK_WriteReg(MSP, 0x20001000)
+T7958 001:261.214 - 0.003ms returns 0
+T7958 001:261.218 JLINK_WriteReg(PSP, 0x20001000)
+T7958 001:261.221 - 0.003ms returns 0
+T7958 001:261.226 JLINK_WriteReg(CFBP, 0x00000000)
+T7958 001:261.229 - 0.003ms returns 0
+T7958 001:261.241 JLINK_SetBPEx(Addr = 0x20000000, Type = 0xFFFFFFF2)
+T7958 001:261.248 - 0.008ms returns 0x0000000B
+T7958 001:261.253 JLINK_Go()
+T7958 001:261.263   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 001:263.791 - 2.538ms 
+T7958 001:263.804 JLINK_IsHalted()
+T7958 001:266.021   CPU_ReadMem(2 bytes @ 0x20000000)
+T7958 001:266.444 - 2.638ms returns TRUE
+T7958 001:266.461 JLINK_ReadReg(R15 (PC))
+T7958 001:266.468 - 0.007ms returns 0x20000000
+T7958 001:266.473 JLINK_ClrBPEx(BPHandle = 0x0000000B)
+T7958 001:266.477 - 0.004ms returns 0x00
+T7958 001:266.482 JLINK_ReadReg(R0)
+T7958 001:266.485 - 0.003ms returns 0x00000000
+T7958 001:325.864 JLINK_WriteMemEx(0x20000000, 0x00000002 Bytes, Flags = 0x02000000)
+T7958 001:325.882   Data:  FE E7
+T7958 001:325.902   CPU_WriteMem(2 bytes @ 0x20000000)
+T7958 001:326.323 - 0.459ms returns 0x2
+T7958 001:326.334 JLINK_HasError()
+T7958 001:337.359 JLINK_Close()
+T7958 001:337.781   CPU_ReadMem(4 bytes @ 0xE0001000)
+T7958 001:351.340 - 13.979ms
+T7958 001:351.362   
+T7958 001:351.366   Closed

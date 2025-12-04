@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="7SkivtZqbwudbUB0_LOS">
+    <mxGraphModel dx="690" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oNftbh2ctl48lJIbAI4T-1" value="Task.c&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oNftbh2ctl48lJIbAI4T-2" target="oNftbh2ctl48lJIbAI4T-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-2" value="Task.h" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oNftbh2ctl48lJIbAI4T-3" target="oNftbh2ctl48lJIbAI4T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-3" value="Task.h" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oNftbh2ctl48lJIbAI4T-5" target="oNftbh2ctl48lJIbAI4T-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oNftbh2ctl48lJIbAI4T-5" target="oNftbh2ctl48lJIbAI4T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-5" value="task_cfg.h" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-7" value="task_cfg.c" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oNftbh2ctl48lJIbAI4T-9" target="oNftbh2ctl48lJIbAI4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNftbh2ctl48lJIbAI4T-9" value="al_helper" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-40" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
