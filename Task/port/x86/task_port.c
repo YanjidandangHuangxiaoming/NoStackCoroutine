@@ -1,7 +1,7 @@
 #include "task.h"
 #include "task_port.h"
 #include "windows.h"
-#include "stdio.h"
+
 
 #pragma comment(lib,"winmm.lib")
  
@@ -103,3 +103,10 @@ int8_t TaskBlinLed(void)
     return 0;
 }
 #endif
+    
+void Suspend_Interrupt(void)
+{
+}
+void Resume_Interrupt(void)
+{
+}

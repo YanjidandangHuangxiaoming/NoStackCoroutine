@@ -42,22 +42,31 @@ void TaskFunc(void)
 { 
     int8_t ret = 0;
     uint8_t j = 0;
+    Suspend_Interrupt();
     for (j = 0; j < sizeof(TaskDb) / sizeof(TaskDb[0]); j++)
     {
         if (!TaskDb[j].cActive)
-            continue;
-
+            continue; 
         TaskDb[j].lLastTime -= TMP1msCount;
+        //TODO:Hook ready
+    }
+    Resume_Interrupt();
+    for (j = 0; j < sizeof(TaskDb) / sizeof(TaskDb[0]); j++)
+    {
+        if (!TaskDb[j].cActive)
+            continue; 
         if (TaskDb[j].lLastTime <= 0)
         { 
             if (TaskDb[j].taskproc != NULL)
             {
+                //TODO: Hook run
                 #if(TASK_WITH_PT)
                 struct pt* pt2 = &(TaskDb[j].pt1);
                 ret = TaskDb[j].taskproc(pt2);
                 #else  
                 ret = TaskDb[j].taskproc();
                 #endif
+                //TODO: HOOK SUSPEND
             }
             TaskDb[j].lLastTime += TaskDb[j].lPeriod;
             if (TaskDb[j].cMode == TASK_MODE_ONCE)
@@ -85,7 +94,7 @@ void TaskProc(void)
 }
 
 // Activate task
-int8_t ActiveTask(Task_id taskid, int32_t lPeriod)
+int8_t ActiveTask(Task_id taskid,TASK_MODE mode, int32_t lPeriod)
 {
     int8_t result = -1;
     unsigned int i;
@@ -97,6 +106,7 @@ int8_t ActiveTask(Task_id taskid, int32_t lPeriod)
             if (TaskDb[i].cActive == 0)
             {
                 TaskDb[i].cActive = 1;
+                TaskDb[i].cMode = mode;
                 TaskDb[i].lPeriod = lPeriod;
                 TaskDb[i].lLastTime = taskid<lPeriod? taskid:0;  // first run immediately 避免公倍数问题
             }
@@ -125,7 +135,7 @@ int8_t SuspendTask(Task_id taskid)
 }
 
 // Start timer (variant with TimerID)
-int8_t StartTimer2(int8_t *TimerID, int8_t cMode, int32_t lPeriod, timerProc timerProc, void *Param1)
+int8_t StartTimer2(int8_t *TimerID, TIMER_MODE cMode, int32_t lPeriod, timerProc timerProc, void *Param1)
 {
     int8_t id = StartTimer(cMode, lPeriod, timerProc, Param1);
     TimerData[id].TimerID = TimerID;
@@ -134,7 +144,7 @@ int8_t StartTimer2(int8_t *TimerID, int8_t cMode, int32_t lPeriod, timerProc tim
 }
 
 // Start timer
-int8_t StartTimer(int8_t cMode, int32_t lPeriod, timerProc timerProc, void *Param1)
+int8_t StartTimer(TIMER_MODE cMode, int32_t lPeriod, timerProc timerProc, void *Param1)
 { 
     int8_t  i;
     TIMER_DATA* ptimer;
@@ -232,18 +242,9 @@ AL_STATIC int8_t TaskTimer(void)
             {
             case TIMER_MODE_TIMER:                          // timer only
                 pTimer[i].cUse = 0;
-                if (pTimer[i].TimerID != NULL)
-                    *pTimer[i].TimerID = -1;
                 break;
             case TIMER_MODE_ONCEROUTINE:                    // timer routine once
-                pTimer[i].cUse = 0;                          //prevents the start of timer after stoptimer in the routine from causing an error stop. 
-                if (pTimer[i].TimerID != NULL)
-                    *pTimer[i].TimerID = -1;
-
-                pTimer[i].lLastTime += pTimer[i].lPeriod;
-                if (pTimer[i].timerProc != NULL)
-                    pTimer[i].timerProc(pTimer[i].Param1);    // start user's routine
-                break;
+                pTimer[i].cUse = 0;                          //prevents the start of timer after stoptimer in the routine from causing an error stop.   
             case TIMER_MODE_CYCROUTINE:                     // cyclely routine
                 pTimer[i].lLastTime += pTimer[i].lPeriod;
                 if (pTimer[i].timerProc != NULL)
@@ -253,7 +254,12 @@ AL_STATIC int8_t TaskTimer(void)
                 pTimer[i].cUse = 0;
                 break;
             }
-        }
+            //disable outside pointer
+            if((pTimer[i].cUse == 0)&&(pTimer[i].TimerID != NULL))
+            {
+                *pTimer[i].TimerID = -1; 
+            }   
+        }      
     }
 #if(TASK_WITH_PT) 
     UNUSED(pt1);

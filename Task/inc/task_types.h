@@ -34,13 +34,13 @@ typedef enum TIMER_MODE
     typedef int8_t (*ptTaskProc)(void);
 #endif
 
-typedef void (*timerProc)(void *Param1);
+typedef int8_t (*timerProc)(void *Param1);
 
 
 typedef struct mytask
 {
     int8_t   cActive;      //
-    int8_t   cMode;
+    TASK_MODE   cMode;
     int8_t   cTaskID;      //
     int8_t   reserve;      //
 #if(TASK_WITH_NAME)
@@ -62,7 +62,7 @@ typedef struct mytimer
 {
     int8_t      cUse;
     int8_t*     TimerID;      //reference to timer id
-    int8_t      cMode;         // timer work mode
+    TIMER_MODE      cMode;         // timer work mode
     int8_t      reserve1;
     int32_t     lPeriod;        // timer period, unit=10ms.
     int32_t     lLastTime;       // timer count for reload

@@ -126,23 +126,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Task\pt_thread\lc-addrlabels.h" />
-    <ClInclude Include="..\..\..\Task\pt_thread\lc-switch.h" />
-    <ClInclude Include="..\..\..\Task\pt_thread\lc.h" />
-    <ClInclude Include="..\..\..\Task\pt_thread\pt-sem.h" />
-    <ClInclude Include="..\..\..\Task\pt_thread\pt.h" />
-    <ClInclude Include="..\..\..\Task\pt_thread\pt_header.h" />
-    <ClInclude Include="..\..\..\Task\pt_thread\pt_timer.h" />
-    <ClInclude Include="Task\cfg\inc\task_cfg.h" />
-    <ClInclude Include="Task\inc\task.h" />
-    <ClInclude Include="Task\inc\task_def.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Task\port\x86\task_port.c" />
     <ClCompile Include="..\..\Task\pt_thread\pt_timer.c" />
     <ClCompile Include="..\..\Task\src\task.c" />
     <ClCompile Include="..\..\Task\src\task_hook.c" />
     <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Task\cfg\inc\task_cfg.h" />
+    <ClInclude Include="..\..\Task\cfg\inc\task_container.h" />
+    <ClInclude Include="..\..\Task\inc\al_helper.h" />
+    <ClInclude Include="..\..\Task\inc\task.h" />
+    <ClInclude Include="..\..\Task\inc\task_def.h" />
+    <ClInclude Include="..\..\Task\inc\task_types.h" />
+    <ClInclude Include="..\..\Task\port\x86\task_port.h" />
+    <ClInclude Include="..\..\Task\pt_thread\lc-addrlabels.h" />
+    <ClInclude Include="..\..\Task\pt_thread\lc-detect.h" />
+    <ClInclude Include="..\..\Task\pt_thread\lc-switch.h" />
+    <ClInclude Include="..\..\Task\pt_thread\lc.h" />
+    <ClInclude Include="..\..\Task\pt_thread\pt-sem.h" />
+    <ClInclude Include="..\..\Task\pt_thread\pt.h" />
+    <ClInclude Include="..\..\Task\pt_thread\pt_header.h" />
+    <ClInclude Include="..\..\Task\pt_thread\pt_timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

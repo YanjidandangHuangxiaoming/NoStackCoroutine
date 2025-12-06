@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-
+#include "stdio.h"
 #include "task_types.h"
      
 // Initialize systick timer
@@ -13,6 +13,8 @@ void task_systick_init(void);
 
 // Idle task function declaration
 void Idle(void);
+void Suspend_Interrupt(void);
+void Resume_Interrupt(void);
 
 // Systick interrupt service function declaration
 void task_systick_handler(void); 

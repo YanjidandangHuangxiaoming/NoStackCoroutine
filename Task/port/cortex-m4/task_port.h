@@ -9,18 +9,19 @@ extern "C" {
 
 
 void Idle(void);
-//初始化systick定时器
 void task_systick_init(void);
 
-//systick中断服务函数
-void task_systick_irq(void);
-
+//初始化systick定时器
+int InitSystick(void); 
 //空闲任务函数声明
-void Idle(void);
+void Idle(void); 
+void Suspend_Interrupt(void);
+void Resume_Interrupt(void);
 
 //systick中断服务函数声明
 void task_systick_handler(void);
-
+int8_t timert2(void *Param1);
+int8_t timert3(void *Param1);
  
 #if(TASK_WITH_PT)
 PT_THREAD(TaskBlinLed(struct pt* pt1));
